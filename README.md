@@ -1,9 +1,11 @@
 # Pythonprogrammering-for-AI-utveckling-HT24
-Course repository for lectures, excercises, labs, and code, for "Pythonprogrammering för AI-utveckling".
 
-# Om detta repo
-I detta Github-repo hittar du varje veckas föreläsningsmaterial, övningsuppgifter, samt kursens labbar med tillhörande instruktioner. Varje föreläsning har tillhörande övningsuppgifter på det aktuella ämnet. Övningarna bygger upp kunskaperna som krävs för att klara labbarna.
+Kurs-repo för föreläsningar, övningar, labbar och all kod vi skriver under "Pythonprogrammering för AI-utveckling".
 
-Under kursens gång kommer du kunna följa hur ett exempelprogram byggs upp i takt med att vi lär oss nya koncept. Du hittar projektet under [/example-project](example-project/).
+## Om detta repo
 
-Det finns även instruktioner för kursens avslutande projektuppgift.
+I detta Github-repo hittar du varje veckas föreläsningsmaterial, övningsuppgifter, samt kursens labbar med tillhörande instruktioner. Varje vecka har tillhörande [övningsuppgifter](https://github.com/CalleFreme/Pythonprogrammering-for-AI-utveckling-HT24/blob/main/exercises) på det aktuella ämnet. Övningarna bygger upp kunskaperna som krävs för att klara labbarna.
+
+Efter de två första veckornas Python-fokus kommer vi in på AI/maskininlärning, och du kommer då kunna följa hur ett exempelprogram byggs upp och förbättras i takt med att vi lär oss nya koncept. Du hittar projektet under [/example-project](https://github.com/CalleFreme/Pythonprogrammering-for-AI-utveckling-HT24/blob/main/example-project).
+
+Det kommer även finnas instruktioner för kursens avslutande projektuppgift.
