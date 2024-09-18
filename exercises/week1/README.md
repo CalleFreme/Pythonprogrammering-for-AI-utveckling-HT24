@@ -98,3 +98,11 @@ För varje felaktig gissning berättar datorn om det rätta svaret är högre el
 ## Uppgift 15
 
 Skriv ett program som kontrollerar om ett givet ord är ett palindrom (läses likadant framifrån som bakifrån).
+
+## Uppgift 16
+
+Skriv ett python program som itererar mellan 1 och 50, 
+*	om talet är delbart med 3 printar den "fizz"
+*	om talet är delbart med 5 printar den "buzz", 
+*	om talet är delbart med både 3 och 5 så printar den "FizzBuzz"
+*	annars printar den bara ut talet
