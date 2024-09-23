@@ -24,7 +24,7 @@ Genom att göra veckans uppgifter kommer du förstå:
 
 ## Uppgift 1
 
-Skriv ett program som emot en sträng som input och skriver ut längden på strängen.
+Skriv ett program som tar emot en sträng som input och skriver ut längden på strängen.
 Exempel-input: "thisIsAString"
 Förväntad output: 13
 
