@@ -13,8 +13,10 @@ Databearbetning
 Funktioner
 OOP
 
-*Uppgift 1
+* Uppgift 1
+
 Skriv ett program som tar emot en sträng som input och skriver ut längden på strängen. Exempel-input: "thisIsAString" Förväntad output: 13
 
-*Uppgift 2
+* Uppgift 2
+
 Skriv ett program som skriver ut frekvensen av tecken i en given sträng. Exempel-input: "banana" Förväntad output: {"b":1, "a":3, "n":2}
