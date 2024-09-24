@@ -15,8 +15,20 @@ Genom att göra veckans uppgifter kommer du förstå:
 
 ## Uppgift 1
 
-Skriv ett program som tar emot en sträng som input och skriver ut längden på strängen. Exempel-input: "thisIsAString" Förväntad output: 13
+Skriv ett bank konto Class
+* Den ska ha attributerna ´´owner´´ och dess balans kommer initiellt vara 0.
+* Skapa metoder såsom ´´deposit(amount)´´ för att lägga till pengar till kontot samt ´´withdraw(amount)´´ för att ta ut pengar från kontot. Se också till att balansen kan ej bli negativ!
+* Skapa en metod ´´display_balance()´´ för att sedan printa kontots nuvarande balans
 
 ## Uppgift 2
 
-Skriv ett program som skriver ut frekvensen av tecken i en given sträng. Exempel-input: "banana" Förväntad output: {"b":1, "a":3, "n":2}
+Skriv en matte Class
+Den ska ha följande metoder
+* add(a,b): Returnerar summan
+* subtract(a,b): returnerar skillnaden
+* divide(a,b): returnerar divisionen
+* multiply(a,b): returnerar multiplikationen
+* gcd(a,b): returnerar största gemensamma delare
+* area_circle(r): returnerar arean av en cirkel
+* circumference(d): returnerar omkretsen av en cirkel
+  
