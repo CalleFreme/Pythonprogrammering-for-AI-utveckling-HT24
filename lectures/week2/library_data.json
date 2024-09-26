@@ -1,0 +1,50 @@
+{
+    "name": "Kungliga Biblioteket",
+    "books": [
+      {
+        "title": "Sagan om ringen",
+        "author": "J.R.R. Tolkien",
+        "year": 1954,
+        "genre": "Fantasy",
+        "borrowed": true,
+        "pages": 423,
+        "borrower_id": "LOAN001"
+      },
+      {
+        "title": "1984",
+        "author": "George Orwell",
+        "year": 1949,
+        "genre": "Science Fiction",
+        "borrowed": false,
+        "pages": 328,
+        "borrower_id": null
+      },
+      {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "year": 1813,
+        "genre": "Romance",
+        "borrowed": true,
+        "pages": 432,
+        "borrower_id": "LOAN002"
+      },
+      {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "year": 1960,
+        "genre": "Fiction",
+        "borrowed": false,
+        "pages": 281,
+        "borrower_id": null
+      },
+      {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "year": 1925,
+        "genre": "Fiction",
+        "borrowed": true,
+        "pages": 180,
+        "borrower_id": "LOAN003"
+      }
+    ]
+  }
