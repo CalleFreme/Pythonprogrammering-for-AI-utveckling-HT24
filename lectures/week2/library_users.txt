@@ -1,0 +1,5 @@
+Erik Låntagare,LOAN001,loaner
+Anna Bibliotekarie,LIB001,librarian
+Maria Bokmal,LOAN002,loaner
+Johan Läsare,LOAN003,loaner
+Lisa Litteratur,LIB002,librarian
