@@ -1,4 +1,4 @@
-# Vecka 2 - Databearbetning i Python
+# Vecka 3 - Databearbetning i Python
 
 ## Databearbetning
 
@@ -26,8 +26,6 @@ Pandas används för att förbereda datan inför analys och beräkningar, etc.
 Matte-bibiotek för att göra effektiva beräkningar över arrayer och matriser. Numeriska metoder.
 
 #### Scikit-learn - bibliotek för machine learning, med hjälp av numpy och pandas
-
-
 
 #### Matplotlib - viualisering av data
 
