@@ -1,0 +1,1001 @@
+Name,Age,City,Salary,Years_Experience,Department,Performance_Score,Training_Hours,Satisfaction_Level,Promotion_Eligible
+Person_0,56,Chicago,46671.0,1,Sales,2.22,40,High,False
+Person_1,69,Phoenix,31782.0,6,Marketing,1.79,35,Medium,True
+Person_2,46,Los Angeles,59754.0,2,HR,1.26,47,High,True
+Person_3,32,New York,73510.0,7,Sales,4.55,51,High,False
+Person_4,60,Chicago,45525.0,22,Finance,2.68,36,Medium,True
+Person_5,25,Chicago,82454.0,13,Marketing,2.99,36,Medium,True
+Person_6,78,New York,26636.0,23,Sales,4.67,42,Low,True
+Person_7,38,Phoenix,65815.0,29,Marketing,,41,Medium,True
+Person_8,56,New York,75072.0,22,Marketing,1.52,45,High,True
+Person_9,75,Los Angeles,46939.0,26,Engineering,3.26,38,High,True
+Person_10,36,New York,47209.0,21,Marketing,2.77,39,Medium,False
+Person_11,40,Chicago,65641.0,28,Engineering,4.19,40,High,False
+Person_12,28,New York,57589.0,6,HR,3.9,34,Low,False
+Person_13,28,Phoenix,20038.0,20,Engineering,3.76,42,High,False
+Person_14,41,Houston,,6,Finance,2.36,31,Low,False
+Person_15,70,New York,49796.0,0,Sales,4.22,38,High,True
+Person_16,53,Phoenix,29454.0,16,HR,1.21,46,Low,True
+Person_17,57,Phoenix,42887.0,8,HR,1.64,42,Low,True
+Person_18,41,Chicago,29829.0,29,Finance,2.34,43,Medium,True
+Person_19,20,Phoenix,44447.0,20,Engineering,1.31,39,Low,True
+Person_20,39,Phoenix,44950.0,12,Sales,1.94,37,Medium,False
+Person_21,70,Phoenix,55276.0,20,Engineering,4.32,32,High,False
+Person_22,19,Phoenix,48623.0,18,Marketing,4.79,40,High,True
+Person_23,41,Los Angeles,,20,Engineering,2.22,48,High,True
+Person_24,61,Los Angeles,55753.0,18,HR,,40,Low,True
+Person_25,47,Chicago,65470.0,24,Sales,,33,High,False
+Person_26,55,New York,63106.0,24,Engineering,2.11,47,High,False
+Person_27,19,Phoenix,61521.0,21,Sales,1.14,37,Medium,True
+Person_28,77,New York,96573.0,16,Sales,4.71,41,Medium,False
+Person_29,38,New York,55211.0,22,Marketing,1.85,34,High,True
+Person_30,50,Chicago,88903.0,22,Marketing,2.68,29,High,False
+Person_31,29,Phoenix,56183.0,29,HR,1.04,43,Low,False
+Person_32,75,Phoenix,48757.0,9,Finance,4.43,47,Low,True
+Person_33,39,Houston,44402.0,9,Sales,3.92,46,High,False
+Person_34,78,New York,72645.0,3,Finance,4.79,32,Medium,False
+Person_35,61,New York,74607.0,7,HR,4.13,40,High,True
+Person_36,42,Los Angeles,58996.0,21,Sales,2.25,47,Low,False
+Person_37,66,Houston,67003.0,19,Sales,1.99,52,Medium,True
+Person_38,44,Los Angeles,30841.0,19,Finance,,36,Medium,False
+Person_39,76,Los Angeles,26768.0,17,Engineering,2.46,44,Low,True
+Person_40,59,Los Angeles,68694.0,13,Marketing,3.26,30,High,True
+Person_41,45,Chicago,48097.0,17,Engineering,1.03,47,High,False
+Person_42,77,Chicago,61239.0,27,Finance,1.25,40,High,False
+Person_43,33,Los Angeles,39240.0,13,Marketing,3.14,33,Low,True
+Person_44,32,Houston,74854.0,19,Engineering,3.26,41,Medium,False
+Person_45,79,New York,26893.0,20,Marketing,4.01,31,Low,False
+Person_46,79,Houston,29216.0,23,Sales,1.53,33,High,False
+Person_47,64,Phoenix,71664.0,14,Engineering,3.05,40,Low,True
+Person_48,79,Chicago,10852.0,21,Marketing,1.78,35,Medium,True
+Person_49,68,New York,55678.0,29,Marketing,1.37,36,Low,True
+Person_50,61,New York,48390.0,3,Marketing,2.64,44,High,False
+Person_51,72,Phoenix,38960.0,12,Engineering,1.65,35,Medium,False
+Person_52,69,Phoenix,47000.0,26,HR,1.89,38,Low,True
+Person_53,74,Los Angeles,37287.0,22,Engineering,2.27,48,Low,True
+Person_54,20,Chicago,73133.0,7,Finance,2.04,46,Medium,False
+Person_55,54,Chicago,77067.0,17,Engineering,1.35,38,Medium,False
+Person_56,68,Houston,39713.0,11,Marketing,,44,High,False
+Person_57,24,Los Angeles,54132.0,22,Sales,1.77,48,Medium,False
+Person_58,38,Los Angeles,30123.0,13,Engineering,1.2,48,High,True
+Person_59,26,Los Angeles,66095.0,1,Engineering,3.51,26,Low,False
+Person_60,56,Los Angeles,65705.0,17,Marketing,2.15,28,High,False
+Person_61,35,Chicago,45571.0,23,Sales,2.12,43,Low,True
+Person_62,21,Chicago,50253.0,1,Sales,2.33,33,Medium,True
+Person_63,42,Los Angeles,48593.0,10,Finance,3.65,39,Low,False
+Person_64,77,Houston,25723.0,8,Engineering,4.48,46,Medium,True
+Person_65,31,New York,73190.0,11,Sales,4.04,39,Low,False
+Person_66,67,New York,38495.0,16,Sales,3.91,31,Low,False
+Person_67,75,Houston,,14,HR,2.94,47,Low,True
+Person_68,26,Los Angeles,47743.0,24,HR,,46,Low,True
+Person_69,43,Chicago,64933.0,16,Sales,3.21,39,High,False
+Person_70,70,New York,41130.0,25,Finance,1.87,44,Low,True
+Person_71,19,Phoenix,20717.0,28,Sales,1.83,53,High,False
+Person_72,37,Phoenix,36695.0,25,Marketing,2.19,30,Medium,False
+Person_73,45,Houston,56362.0,17,Engineering,4.64,42,Medium,False
+Person_74,64,Los Angeles,82846.0,21,Finance,3.19,37,High,True
+Person_75,77,New York,31101.0,5,Marketing,3.94,37,Medium,False
+Person_76,24,Los Angeles,,16,Finance,2.39,49,Medium,False
+Person_77,61,New York,27311.0,22,Marketing,2.63,48,Low,False
+Person_78,78,Houston,25449.0,23,Engineering,1.5,40,Low,True
+Person_79,25,Houston,68085.0,17,Engineering,1.69,40,Low,False
+Person_80,64,Phoenix,72420.0,7,HR,4.31,43,High,False
+Person_81,52,Los Angeles,52666.0,8,Marketing,3.34,34,High,False
+Person_82,31,Phoenix,42984.0,5,HR,2.35,33,Medium,True
+Person_83,34,Los Angeles,76867.0,4,Marketing,4.21,38,Low,False
+Person_84,53,Phoenix,52608.0,11,HR,1.99,33,High,False
+Person_85,67,Chicago,66341.0,24,Engineering,4.9,33,High,True
+Person_86,57,Chicago,42253.0,28,Finance,2.38,36,Low,True
+Person_87,21,Chicago,50663.0,27,HR,2.35,40,High,False
+Person_88,19,Chicago,31439.0,10,Marketing,2.25,45,Low,False
+Person_89,79,New York,59438.0,24,Marketing,1.49,48,Medium,False
+Person_90,23,Chicago,52864.0,0,Engineering,1.44,48,Medium,True
+Person_91,71,Houston,36581.0,10,Marketing,3.59,46,Medium,True
+Person_92,59,Houston,36783.0,18,Sales,4.5,41,Low,False
+Person_93,21,New York,74239.0,8,Finance,4.16,44,High,True
+Person_94,71,Chicago,,26,HR,1.56,36,Medium,False
+Person_95,46,Chicago,46802.0,1,Finance,3.18,39,Medium,False
+Person_96,35,Chicago,51016.0,11,Engineering,1.42,38,Medium,True
+Person_97,43,Phoenix,56001.0,3,HR,1.18,42,High,False
+Person_98,61,Los Angeles,52220.0,3,HR,,38,High,True
+Person_99,51,Phoenix,24885.0,17,Sales,3.14,35,Low,True
+Person_100,27,Los Angeles,56418.0,14,Engineering,1.33,47,Medium,False
+Person_101,79,Chicago,18681.0,18,Marketing,1.14,54,High,True
+Person_102,53,Chicago,39009.0,12,Sales,4.96,46,Low,False
+Person_103,31,Phoenix,57581.0,18,Sales,1.12,36,Medium,True
+Person_104,48,Phoenix,58999.0,16,Finance,2.78,40,High,False
+Person_105,65,Los Angeles,37848.0,5,Finance,3.02,42,High,False
+Person_106,32,Houston,43123.0,15,Finance,1.47,33,Low,False
+Person_107,25,Los Angeles,41092.0,23,Sales,1.68,40,Medium,True
+Person_108,31,Phoenix,48457.0,11,Marketing,2.41,30,Medium,False
+Person_109,40,Phoenix,49598.0,18,HR,4.05,42,High,True
+Person_110,77,New York,60027.0,4,Finance,3.03,42,Medium,True
+Person_111,74,Phoenix,42246.0,16,Marketing,3.55,35,Low,True
+Person_112,79,New York,55600.0,25,Engineering,4.94,38,High,True
+Person_113,57,Houston,57605.0,22,Finance,4.07,51,High,True
+Person_114,38,Los Angeles,52974.0,25,HR,2.74,37,Low,False
+Person_115,33,Los Angeles,46105.0,28,Engineering,2.79,35,High,True
+Person_116,62,New York,52709.0,0,Engineering,3.48,43,Medium,False
+Person_117,35,Los Angeles,61276.0,27,HR,3.66,45,Medium,False
+Person_118,64,Phoenix,62587.0,26,Finance,,43,High,True
+Person_119,70,Chicago,77230.0,24,Sales,3.58,42,Low,False
+Person_120,41,New York,35149.0,23,HR,1.09,32,Low,False
+Person_121,43,Los Angeles,43399.0,22,HR,2.72,36,Medium,True
+Person_122,42,New York,25797.0,9,HR,2.12,35,Low,False
+Person_123,77,New York,63965.0,14,Engineering,1.52,37,High,True
+Person_124,77,Chicago,44982.0,22,Marketing,,48,High,True
+Person_125,77,Phoenix,53092.0,20,Sales,3.41,43,Medium,True
+Person_126,62,New York,40934.0,20,Finance,3.09,37,Medium,False
+Person_127,58,Los Angeles,45099.0,10,Finance,2.01,29,Medium,False
+Person_128,46,Houston,68347.0,12,Marketing,2.88,42,Low,False
+Person_129,32,New York,60413.0,4,HR,2.97,52,High,False
+Person_130,62,New York,48327.0,0,Sales,1.78,46,High,True
+Person_131,18,Chicago,61517.0,23,Finance,3.61,45,High,True
+Person_132,42,Phoenix,61848.0,11,Finance,4.12,40,Medium,False
+Person_133,24,Houston,44128.0,10,HR,4.17,39,High,True
+Person_134,26,Los Angeles,27963.0,16,Marketing,3.41,41,Low,False
+Person_135,41,Houston,36512.0,3,Sales,3.05,39,Low,True
+Person_136,18,Los Angeles,29892.0,14,Marketing,1.24,36,High,True
+Person_137,61,Phoenix,67466.0,24,Marketing,2.15,45,Medium,True
+Person_138,25,Los Angeles,70071.0,29,Sales,1.37,39,High,True
+Person_139,41,Chicago,73795.0,8,Sales,4.86,48,Low,True
+Person_140,28,Chicago,19706.0,20,Finance,1.54,33,Low,False
+Person_141,68,Chicago,66071.0,19,Finance,1.61,47,Low,False
+Person_142,34,Chicago,83182.0,18,Sales,4.56,38,High,True
+Person_143,25,Houston,66679.0,18,Engineering,4.78,47,Low,False
+Person_144,52,Phoenix,17731.0,11,Finance,4.06,42,Medium,True
+Person_145,52,Los Angeles,76524.0,4,Engineering,1.02,40,High,True
+Person_146,50,Los Angeles,50625.0,9,Sales,1.01,38,High,True
+Person_147,76,Chicago,46514.0,16,Finance,2.51,37,Low,True
+Person_148,22,Chicago,56766.0,4,Marketing,,39,Low,False
+Person_149,59,New York,34264.0,21,Sales,1.07,37,Medium,True
+Person_150,56,Phoenix,50041.0,15,HR,2.86,40,High,False
+Person_151,75,Houston,74306.0,6,Engineering,4.77,56,Low,True
+Person_152,58,Los Angeles,59335.0,27,Sales,2.3,45,Medium,True
+Person_153,45,New York,50876.0,8,Sales,3.64,25,Low,False
+Person_154,24,New York,,2,Finance,3.61,33,High,True
+Person_155,26,Los Angeles,32279.0,14,Finance,2.0,52,Low,True
+Person_156,25,Houston,47750.0,15,Finance,3.6,36,High,False
+Person_157,29,New York,25485.0,17,HR,1.85,31,Low,False
+Person_158,51,New York,65336.0,13,Finance,1.49,41,High,False
+Person_159,50,Phoenix,17214.0,2,Sales,3.81,40,Medium,True
+Person_160,65,Houston,62823.0,11,Finance,1.45,46,High,True
+Person_161,72,New York,64691.0,8,Marketing,4.99,53,Medium,False
+Person_162,40,Houston,69781.0,27,Finance,1.73,52,High,False
+Person_163,79,Los Angeles,,6,HR,3.38,41,Medium,True
+Person_164,41,Chicago,63749.0,8,Marketing,2.65,35,Low,True
+Person_165,54,New York,47603.0,12,Sales,1.51,37,High,False
+Person_166,52,Phoenix,32199.0,17,Sales,1.11,47,Low,False
+Person_167,61,Los Angeles,72960.0,4,Engineering,3.49,42,Medium,False
+Person_168,57,Houston,48546.0,12,Marketing,4.23,38,High,False
+Person_169,39,Los Angeles,28857.0,3,Engineering,,44,High,True
+Person_170,44,New York,42997.0,1,Marketing,2.93,28,Low,True
+Person_171,52,Houston,,15,Marketing,4.11,31,High,True
+Person_172,18,Chicago,56925.0,8,HR,3.69,39,High,True
+Person_173,52,Los Angeles,85205.0,8,Engineering,3.9,38,Low,False
+Person_174,54,New York,57836.0,5,HR,2.97,37,High,True
+Person_175,64,Phoenix,53102.0,10,Marketing,3.53,42,Low,False
+Person_176,31,Houston,86836.0,21,Sales,4.22,43,Low,True
+Person_177,20,Los Angeles,64683.0,23,Marketing,,46,Low,True
+Person_178,18,Los Angeles,53813.0,21,HR,,41,Low,True
+Person_179,22,Chicago,42808.0,0,Engineering,3.37,45,Low,False
+Person_180,43,Chicago,54743.0,3,Engineering,1.66,35,Medium,True
+Person_181,72,Phoenix,49004.0,12,HR,1.1,30,Medium,False
+Person_182,31,Phoenix,51371.0,22,Engineering,2.45,32,Low,False
+Person_183,56,New York,69716.0,12,Finance,3.19,47,Medium,True
+Person_184,44,New York,41895.0,12,Sales,4.36,35,Medium,False
+Person_185,26,Phoenix,57703.0,1,Sales,1.51,36,High,True
+Person_186,32,Phoenix,64234.0,8,Sales,,43,Low,False
+Person_187,32,Houston,40068.0,23,Engineering,4.45,40,Medium,True
+Person_188,43,Chicago,37660.0,7,Engineering,1.6,37,High,False
+Person_189,59,New York,47744.0,6,Marketing,4.41,33,High,False
+Person_190,77,Chicago,43075.0,3,Marketing,4.97,35,Low,True
+Person_191,30,Chicago,67284.0,17,Sales,3.91,33,Low,True
+Person_192,68,Phoenix,34973.0,2,Finance,4.14,40,High,True
+Person_193,49,Houston,51027.0,27,Marketing,4.98,29,Low,True
+Person_194,56,Los Angeles,88190.0,5,Marketing,3.42,43,Low,False
+Person_195,66,Houston,56195.0,11,Engineering,2.23,35,High,False
+Person_196,69,Houston,58689.0,11,Finance,4.35,51,High,False
+Person_197,78,Chicago,67410.0,20,Sales,3.46,38,Low,False
+Person_198,49,Houston,43055.0,27,Marketing,3.32,35,Medium,True
+Person_199,21,New York,33778.0,7,Finance,2.01,44,Low,False
+Person_200,47,Chicago,52647.0,21,Finance,4.03,42,Medium,True
+Person_201,54,New York,53981.0,21,Sales,1.33,40,High,False
+Person_202,40,Los Angeles,25726.0,0,Finance,4.7,47,Medium,True
+Person_203,56,Chicago,55626.0,3,Finance,2.3,49,High,True
+Person_204,62,Los Angeles,66047.0,20,Finance,1.51,33,Low,True
+Person_205,32,Chicago,36305.0,27,Marketing,2.77,31,Low,True
+Person_206,60,Phoenix,56533.0,10,Sales,1.17,31,High,True
+Person_207,46,Houston,63383.0,2,Finance,3.74,32,High,False
+Person_208,53,Phoenix,58800.0,12,Finance,4.61,44,High,True
+Person_209,30,Los Angeles,60215.0,24,Marketing,4.35,45,Low,False
+Person_210,49,Houston,46327.0,16,Sales,1.51,46,Low,False
+Person_211,24,Chicago,33087.0,21,Engineering,1.51,43,Medium,True
+Person_212,76,Houston,43292.0,21,Marketing,4.25,38,High,False
+Person_213,68,New York,41209.0,9,Sales,4.7,48,Medium,False
+Person_214,39,Houston,48796.0,20,Finance,2.84,40,Low,False
+Person_215,45,New York,66399.0,11,Sales,3.0,36,Medium,True
+Person_216,19,Houston,30322.0,14,Sales,2.27,44,Medium,True
+Person_217,59,New York,52163.0,20,Sales,4.58,38,Low,True
+Person_218,62,Los Angeles,34048.0,9,Engineering,3.58,52,Low,True
+Person_219,79,Phoenix,38899.0,13,Sales,2.15,31,High,False
+Person_220,74,Chicago,58381.0,12,Engineering,2.2,40,Medium,False
+Person_221,70,Houston,32150.0,4,Finance,4.56,35,Low,False
+Person_222,23,Phoenix,61013.0,5,Engineering,1.05,30,Low,False
+Person_223,45,Chicago,29717.0,23,Finance,2.29,35,Medium,False
+Person_224,45,Chicago,60004.0,1,Finance,3.22,44,Low,False
+Person_225,61,New York,26757.0,21,Engineering,1.59,40,High,True
+Person_226,61,Los Angeles,40732.0,16,Marketing,1.37,38,High,False
+Person_227,37,Los Angeles,78447.0,3,HR,4.26,36,Medium,False
+Person_228,47,Phoenix,75628.0,13,Sales,4.58,37,High,False
+Person_229,79,Los Angeles,43812.0,9,HR,4.29,39,Low,True
+Person_230,28,Houston,55849.0,2,Sales,4.6,45,Low,False
+Person_231,75,Los Angeles,68061.0,24,Sales,3.21,43,Low,False
+Person_232,72,Phoenix,60219.0,2,Finance,4.25,35,Low,True
+Person_233,45,Los Angeles,45898.0,14,Sales,2.54,34,Medium,False
+Person_234,42,Houston,38770.0,5,Sales,3.67,48,High,True
+Person_235,56,New York,63021.0,16,Engineering,,32,High,True
+Person_236,79,Phoenix,66960.0,11,HR,1.9,50,Low,False
+Person_237,50,New York,75735.0,21,Engineering,2.56,26,Medium,False
+Person_238,18,New York,24691.0,19,Sales,2.92,41,Low,True
+Person_239,74,New York,31203.0,23,Finance,1.55,39,Low,False
+Person_240,44,Chicago,67428.0,28,Engineering,1.32,39,Medium,False
+Person_241,79,Chicago,26727.0,10,Engineering,4.32,40,Medium,True
+Person_242,74,New York,68578.0,24,Marketing,4.91,33,Low,True
+Person_243,69,Phoenix,46776.0,3,Sales,2.62,44,High,False
+Person_244,30,Houston,42186.0,25,Finance,1.35,36,Low,True
+Person_245,58,Houston,,27,Engineering,1.26,31,High,False
+Person_246,20,Los Angeles,29819.0,25,Engineering,4.57,26,High,False
+Person_247,56,Phoenix,62360.0,5,Finance,2.86,41,Medium,False
+Person_248,23,Chicago,75344.0,0,Sales,2.28,39,Medium,False
+Person_249,25,New York,63058.0,19,Marketing,2.91,36,Low,True
+Person_250,44,Los Angeles,46302.0,22,Engineering,2.27,36,High,False
+Person_251,26,Houston,26929.0,27,Marketing,2.96,42,High,True
+Person_252,79,Chicago,27506.0,15,HR,4.44,45,Low,False
+Person_253,54,Chicago,30055.0,14,Sales,3.37,46,Low,False
+Person_254,50,New York,49815.0,16,HR,3.78,47,Low,True
+Person_255,68,Houston,51701.0,7,HR,2.46,48,Medium,False
+Person_256,59,Phoenix,,27,HR,3.95,36,Low,True
+Person_257,61,Chicago,23059.0,25,Sales,3.67,34,Low,True
+Person_258,41,New York,,11,Sales,1.48,42,High,False
+Person_259,32,Phoenix,60416.0,26,Finance,3.29,40,Low,False
+Person_260,76,Houston,45097.0,21,Marketing,2.03,39,High,False
+Person_261,71,Chicago,32153.0,20,Marketing,4.22,45,High,False
+Person_262,49,Phoenix,68737.0,9,Finance,2.7,36,Medium,True
+Person_263,49,Phoenix,45498.0,26,Finance,4.98,34,Low,False
+Person_264,41,Phoenix,49699.0,14,HR,1.37,50,Low,False
+Person_265,58,Chicago,55754.0,29,Finance,4.12,38,High,False
+Person_266,69,Chicago,36302.0,8,Engineering,3.69,40,Medium,False
+Person_267,66,Los Angeles,45767.0,1,Marketing,4.07,33,Medium,False
+Person_268,79,Houston,62979.0,4,Finance,2.23,39,Low,True
+Person_269,66,New York,61461.0,5,Engineering,2.97,42,High,False
+Person_270,75,Phoenix,61596.0,6,Engineering,4.19,34,Low,True
+Person_271,69,Los Angeles,32672.0,20,Engineering,1.93,37,Low,False
+Person_272,29,New York,46451.0,24,Engineering,1.9,30,Low,False
+Person_273,79,Los Angeles,44054.0,0,HR,3.2,49,Low,False
+Person_274,56,Chicago,56377.0,22,Engineering,3.09,41,High,True
+Person_275,19,Phoenix,55034.0,25,HR,2.13,45,Medium,False
+Person_276,20,New York,,6,HR,,42,Low,True
+Person_277,66,New York,86986.0,19,Engineering,2.11,30,Low,True
+Person_278,54,New York,45637.0,24,Marketing,4.09,42,Low,False
+Person_279,66,New York,43882.0,29,Engineering,3.61,48,Low,True
+Person_280,73,New York,32648.0,11,Engineering,4.33,36,Medium,False
+Person_281,34,Los Angeles,26932.0,15,Engineering,4.9,52,Medium,False
+Person_282,76,Phoenix,31695.0,15,Marketing,2.9,43,Medium,True
+Person_283,66,Chicago,39219.0,10,Sales,1.27,45,Medium,False
+Person_284,19,Chicago,69651.0,20,Sales,1.19,36,Low,False
+Person_285,19,Chicago,50587.0,3,HR,2.18,37,High,True
+Person_286,45,Chicago,52899.0,12,HR,4.73,30,Medium,True
+Person_287,71,Los Angeles,48555.0,6,Marketing,3.09,32,Medium,True
+Person_288,40,Houston,55479.0,3,Finance,2.09,40,Low,True
+Person_289,54,Phoenix,71031.0,14,Sales,2.6,45,Low,True
+Person_290,49,New York,20091.0,18,HR,3.39,41,Low,True
+Person_291,50,Houston,68275.0,8,Sales,3.61,52,Low,False
+Person_292,18,Chicago,12274.0,10,Marketing,1.62,39,High,True
+Person_293,36,Houston,50423.0,7,Marketing,4.91,37,High,True
+Person_294,79,Phoenix,82878.0,0,Finance,3.18,42,Medium,False
+Person_295,19,New York,60209.0,22,Finance,1.54,44,High,False
+Person_296,70,New York,55595.0,24,Marketing,4.57,42,Medium,True
+Person_297,61,Phoenix,80029.0,23,HR,1.3,40,Medium,True
+Person_298,43,Phoenix,39454.0,7,Sales,4.63,43,High,False
+Person_299,49,Chicago,56509.0,12,Engineering,4.99,44,Medium,True
+Person_300,23,New York,58671.0,21,Finance,3.8,33,Low,True
+Person_301,49,Houston,42163.0,26,Engineering,4.08,54,Medium,False
+Person_302,72,Los Angeles,,3,HR,2.35,31,Low,True
+Person_303,21,Los Angeles,41843.0,7,Finance,4.77,31,High,False
+Person_304,72,Phoenix,51309.0,2,Engineering,3.12,35,High,True
+Person_305,28,Chicago,58200.0,28,HR,3.93,44,Medium,False
+Person_306,73,Los Angeles,,8,Sales,4.7,49,Low,False
+Person_307,76,New York,60641.0,28,HR,4.9,36,Medium,False
+Person_308,34,Phoenix,20462.0,1,Finance,4.33,36,High,True
+Person_309,55,Houston,46726.0,1,Marketing,2.21,42,Medium,False
+Person_310,41,Phoenix,34648.0,27,Sales,4.87,40,Medium,True
+Person_311,22,Houston,54525.0,12,Engineering,3.51,37,Low,False
+Person_312,69,Phoenix,54303.0,14,Finance,4.72,37,High,False
+Person_313,51,Phoenix,48265.0,27,Marketing,3.7,28,Medium,False
+Person_314,23,Phoenix,57654.0,22,HR,2.23,46,Low,True
+Person_315,39,Houston,64967.0,11,Marketing,2.48,40,Medium,True
+Person_316,28,Houston,49092.0,25,Finance,3.2,36,Low,False
+Person_317,65,Phoenix,34224.0,3,Finance,4.16,39,Low,True
+Person_318,33,Los Angeles,26281.0,25,Marketing,2.27,55,Medium,True
+Person_319,50,Chicago,50541.0,7,HR,3.32,46,High,True
+Person_320,26,Chicago,53628.0,8,Marketing,2.38,34,High,False
+Person_321,77,Chicago,35457.0,22,Finance,4.26,34,Low,True
+Person_322,76,Houston,60886.0,4,Finance,2.87,35,High,False
+Person_323,23,Houston,43115.0,23,Engineering,1.31,41,Low,False
+Person_324,33,Los Angeles,25153.0,19,Engineering,,47,High,False
+Person_325,46,Chicago,68846.0,17,Sales,1.24,33,Medium,True
+Person_326,20,Chicago,,10,Finance,3.0,39,High,False
+Person_327,37,Phoenix,19766.0,14,Engineering,1.43,49,Low,True
+Person_328,77,Houston,41560.0,27,Marketing,1.46,54,Low,True
+Person_329,76,Chicago,40976.0,21,HR,4.76,42,High,False
+Person_330,53,Los Angeles,74592.0,8,Marketing,4.49,41,Medium,False
+Person_331,36,Los Angeles,48510.0,16,HR,2.81,34,Low,False
+Person_332,43,Chicago,27561.0,26,Engineering,4.94,39,Low,True
+Person_333,20,Houston,63231.0,25,Sales,1.0,47,Low,True
+Person_334,36,Los Angeles,31538.0,11,Marketing,3.46,41,Low,False
+Person_335,37,Phoenix,46094.0,6,Marketing,3.47,40,Low,False
+Person_336,49,Los Angeles,38453.0,9,Marketing,,39,Medium,True
+Person_337,24,New York,41593.0,24,HR,2.59,41,High,True
+Person_338,69,New York,64058.0,25,Engineering,2.82,35,Medium,False
+Person_339,58,Houston,72819.0,24,Marketing,2.66,31,Medium,True
+Person_340,50,Chicago,30884.0,9,Marketing,,34,Low,True
+Person_341,57,Houston,59391.0,26,Sales,1.54,27,Medium,True
+Person_342,56,Houston,39008.0,12,Sales,1.79,30,Low,True
+Person_343,35,Houston,,18,Engineering,1.72,39,Medium,True
+Person_344,57,Houston,57359.0,10,Engineering,2.05,32,Low,True
+Person_345,18,Phoenix,34581.0,12,Finance,3.1,37,Low,False
+Person_346,28,Phoenix,,20,Sales,1.44,44,Medium,True
+Person_347,45,Los Angeles,60951.0,7,Finance,4.47,32,Medium,False
+Person_348,74,New York,43512.0,7,HR,2.19,36,High,False
+Person_349,42,Houston,69906.0,3,Finance,1.65,39,High,True
+Person_350,67,Los Angeles,30907.0,14,Marketing,3.7,34,High,False
+Person_351,40,New York,70181.0,27,Finance,1.15,41,Medium,False
+Person_352,48,Chicago,20840.0,10,Engineering,3.48,39,Medium,False
+Person_353,47,Phoenix,90495.0,10,HR,3.79,55,Low,True
+Person_354,59,New York,43906.0,0,Marketing,1.86,42,High,False
+Person_355,52,Chicago,32565.0,16,Finance,1.17,48,Low,True
+Person_356,24,New York,46509.0,14,HR,2.45,37,Low,False
+Person_357,77,Phoenix,34302.0,19,HR,1.39,46,Low,False
+Person_358,33,Phoenix,55804.0,5,Marketing,1.47,36,Low,False
+Person_359,43,Los Angeles,70514.0,23,Finance,2.02,48,High,False
+Person_360,65,Houston,35098.0,21,HR,2.18,50,Low,True
+Person_361,74,New York,58690.0,27,HR,3.12,29,Medium,False
+Person_362,69,New York,27008.0,24,Sales,3.71,43,Medium,False
+Person_363,77,Chicago,65494.0,14,HR,3.37,29,Medium,True
+Person_364,66,Phoenix,56243.0,8,Sales,1.59,37,High,True
+Person_365,19,New York,66142.0,13,Finance,1.69,45,Low,True
+Person_366,18,Phoenix,48164.0,17,Finance,4.52,34,High,False
+Person_367,65,New York,43472.0,25,Finance,3.23,34,Low,True
+Person_368,79,Los Angeles,62241.0,16,Engineering,4.48,30,High,True
+Person_369,29,Houston,30379.0,17,Finance,2.49,38,High,True
+Person_370,22,New York,23857.0,4,HR,3.46,32,Low,True
+Person_371,54,Phoenix,,19,Marketing,3.09,43,High,True
+Person_372,49,Los Angeles,44156.0,19,Sales,,46,Low,True
+Person_373,76,New York,58307.0,8,Engineering,2.88,36,Medium,False
+Person_374,72,Chicago,66373.0,10,Finance,3.01,28,Medium,True
+Person_375,26,Houston,57995.0,23,Finance,1.8,45,Medium,False
+Person_376,58,New York,65178.0,21,Marketing,2.26,32,High,True
+Person_377,52,Los Angeles,,0,Marketing,4.17,36,Medium,True
+Person_378,36,Chicago,57418.0,17,Engineering,4.66,42,Low,True
+Person_379,65,Los Angeles,48250.0,5,Sales,2.44,37,Medium,False
+Person_380,33,Los Angeles,56975.0,26,Finance,,49,Medium,True
+Person_381,20,Chicago,,1,Engineering,1.78,44,High,True
+Person_382,37,Los Angeles,54877.0,14,HR,3.71,50,Low,True
+Person_383,41,Chicago,47499.0,28,HR,2.29,42,High,True
+Person_384,71,New York,62133.0,25,Engineering,4.95,43,High,False
+Person_385,73,Chicago,39343.0,20,Finance,2.3,39,Low,False
+Person_386,50,Chicago,49724.0,13,Engineering,2.58,33,High,False
+Person_387,41,Houston,69676.0,4,Finance,3.41,34,Low,False
+Person_388,69,Chicago,35769.0,5,Marketing,4.21,43,Medium,False
+Person_389,28,Chicago,17572.0,5,Engineering,2.88,53,Low,True
+Person_390,66,New York,,29,Finance,2.69,39,Low,True
+Person_391,25,Houston,46145.0,21,Engineering,4.98,34,Low,True
+Person_392,53,Phoenix,65162.0,29,Engineering,1.04,45,High,False
+Person_393,55,New York,48042.0,17,Finance,4.58,49,Low,True
+Person_394,57,New York,40934.0,13,Finance,1.6,33,Low,False
+Person_395,37,Phoenix,48862.0,9,Sales,4.14,39,Low,True
+Person_396,79,Chicago,66396.0,13,Engineering,3.47,41,Medium,False
+Person_397,52,Los Angeles,58630.0,12,HR,2.37,45,Low,True
+Person_398,65,Houston,13491.0,29,Engineering,4.5,41,High,True
+Person_399,79,Los Angeles,52786.0,2,Engineering,1.05,44,Low,True
+Person_400,42,Phoenix,53536.0,29,Finance,1.91,50,Low,True
+Person_401,52,New York,49726.0,5,Engineering,3.27,40,Medium,False
+Person_402,42,New York,40836.0,28,Engineering,2.41,32,Low,True
+Person_403,46,Houston,67917.0,7,HR,3.44,44,High,True
+Person_404,35,New York,68660.0,11,Finance,1.1,29,Low,True
+Person_405,63,New York,16952.0,12,Engineering,,35,High,False
+Person_406,35,Houston,38030.0,10,Marketing,1.51,39,Medium,True
+Person_407,19,Houston,47829.0,11,Sales,,52,Low,True
+Person_408,71,Phoenix,64227.0,0,HR,2.84,50,Medium,True
+Person_409,52,New York,50522.0,16,Engineering,4.01,39,Low,True
+Person_410,33,New York,39746.0,15,Marketing,4.62,36,High,True
+Person_411,78,Phoenix,60643.0,10,Engineering,4.34,39,Medium,False
+Person_412,58,Chicago,46829.0,12,Engineering,1.79,31,Low,False
+Person_413,53,Chicago,48238.0,17,Finance,2.76,37,High,False
+Person_414,50,Chicago,49592.0,10,Finance,1.8,44,Medium,True
+Person_415,21,Phoenix,58614.0,27,Finance,2.06,57,Low,False
+Person_416,50,New York,45371.0,11,Marketing,3.01,30,Medium,True
+Person_417,31,Phoenix,60304.0,5,Engineering,1.27,34,Low,True
+Person_418,38,Phoenix,48903.0,8,Sales,1.87,47,High,True
+Person_419,65,Chicago,33994.0,15,HR,4.74,24,High,True
+Person_420,37,Los Angeles,49448.0,3,Finance,2.86,51,Medium,False
+Person_421,73,New York,34771.0,2,Finance,2.78,30,Medium,False
+Person_422,25,Chicago,50614.0,27,Engineering,1.06,36,Low,False
+Person_423,24,Los Angeles,,15,Engineering,1.99,43,High,True
+Person_424,20,Los Angeles,33895.0,23,Marketing,4.47,42,Low,False
+Person_425,34,Houston,55464.0,26,Marketing,1.66,42,High,False
+Person_426,50,New York,37564.0,25,Finance,2.66,31,Medium,True
+Person_427,65,Los Angeles,53025.0,29,Engineering,1.06,32,Low,False
+Person_428,29,Chicago,62903.0,24,Sales,2.91,23,Low,True
+Person_429,76,Houston,18057.0,11,HR,1.08,43,High,False
+Person_430,68,New York,33282.0,10,Engineering,4.28,37,High,False
+Person_431,39,Phoenix,44465.0,4,Engineering,4.3,46,High,False
+Person_432,72,Chicago,54725.0,24,Marketing,4.15,33,Medium,True
+Person_433,39,Los Angeles,47504.0,17,HR,2.13,38,Low,False
+Person_434,63,Los Angeles,49311.0,18,Finance,4.35,35,High,False
+Person_435,47,Chicago,80644.0,22,Engineering,3.17,40,Medium,False
+Person_436,55,Los Angeles,31813.0,22,Finance,2.5,44,High,False
+Person_437,55,Houston,67032.0,5,Engineering,3.5,26,Low,True
+Person_438,62,New York,44750.0,21,Finance,1.05,37,High,True
+Person_439,68,Houston,58242.0,17,HR,1.57,50,Low,False
+Person_440,71,Los Angeles,81934.0,25,Marketing,3.97,47,Medium,False
+Person_441,25,Phoenix,60330.0,5,HR,1.98,31,Medium,False
+Person_442,44,New York,55587.0,3,Sales,3.39,34,High,True
+Person_443,44,New York,73986.0,11,Marketing,2.54,47,Low,False
+Person_444,51,Chicago,66871.0,18,HR,4.42,48,Low,False
+Person_445,38,Chicago,38009.0,28,Sales,4.81,42,Low,True
+Person_446,47,Phoenix,54417.0,26,Engineering,4.53,43,High,True
+Person_447,50,New York,24237.0,28,Engineering,2.08,42,Low,True
+Person_448,45,Phoenix,,1,Finance,1.78,42,Low,False
+Person_449,64,Chicago,54710.0,16,Marketing,2.9,34,Low,True
+Person_450,50,Chicago,40968.0,10,Engineering,1.03,48,Low,True
+Person_451,22,New York,54100.0,10,Marketing,1.1,43,High,False
+Person_452,77,Houston,49799.0,20,Engineering,3.21,35,High,True
+Person_453,78,Los Angeles,58046.0,15,Finance,3.08,51,Low,False
+Person_454,65,Chicago,43637.0,1,HR,,29,Low,False
+Person_455,36,Chicago,35897.0,1,Finance,1.81,30,Medium,True
+Person_456,21,Houston,72171.0,22,Sales,2.03,50,Medium,False
+Person_457,52,Houston,42564.0,7,Engineering,1.45,30,Low,True
+Person_458,66,Phoenix,59900.0,12,Sales,4.67,36,Low,True
+Person_459,34,Phoenix,71528.0,9,Sales,4.11,46,Medium,True
+Person_460,61,Los Angeles,52440.0,7,Marketing,,38,Medium,False
+Person_461,45,Los Angeles,,29,Engineering,4.61,36,Low,True
+Person_462,47,New York,47320.0,3,Sales,3.1,31,High,False
+Person_463,46,Phoenix,,14,HR,2.8,48,High,False
+Person_464,63,Chicago,53093.0,29,Sales,2.32,29,Low,False
+Person_465,70,Phoenix,31922.0,0,HR,3.36,39,Low,True
+Person_466,23,Chicago,58949.0,10,Marketing,2.82,37,Medium,False
+Person_467,52,Houston,61542.0,6,Sales,2.81,42,Medium,False
+Person_468,77,Phoenix,44670.0,16,Finance,,37,High,True
+Person_469,58,Houston,,26,Marketing,4.94,37,Low,True
+Person_470,54,Los Angeles,53675.0,19,HR,4.19,41,Medium,False
+Person_471,41,Los Angeles,47038.0,23,Marketing,4.03,52,High,False
+Person_472,46,New York,30596.0,17,Sales,3.72,42,High,True
+Person_473,66,Phoenix,66169.0,21,Engineering,1.66,45,High,False
+Person_474,63,Houston,61388.0,28,Engineering,1.24,46,Medium,False
+Person_475,70,Chicago,58758.0,21,HR,3.76,39,Medium,False
+Person_476,48,Los Angeles,,11,HR,3.92,36,Low,False
+Person_477,52,Los Angeles,64177.0,8,Engineering,1.19,36,Low,True
+Person_478,77,Chicago,60298.0,4,HR,4.71,37,High,False
+Person_479,50,Houston,16801.0,9,Marketing,1.36,33,High,True
+Person_480,69,Houston,67953.0,3,Finance,2.14,36,Medium,False
+Person_481,78,Phoenix,51246.0,4,Finance,3.69,29,Medium,True
+Person_482,38,Phoenix,54687.0,27,Marketing,1.68,35,Low,False
+Person_483,49,New York,54789.0,27,Finance,1.22,36,Low,True
+Person_484,40,Los Angeles,,9,Sales,2.32,53,Low,False
+Person_485,50,Phoenix,66832.0,10,Marketing,4.06,41,Medium,True
+Person_486,20,Houston,59513.0,20,HR,2.65,47,High,False
+Person_487,35,Chicago,57129.0,23,Marketing,,33,Low,False
+Person_488,42,Houston,,9,Engineering,3.32,39,Low,True
+Person_489,59,Los Angeles,-274.0,27,HR,,36,Medium,True
+Person_490,48,Houston,45686.0,7,Engineering,4.95,40,Low,True
+Person_491,71,New York,35876.0,1,HR,1.17,31,High,True
+Person_492,75,Los Angeles,68161.0,22,Finance,4.87,41,Medium,True
+Person_493,20,Chicago,59285.0,7,Marketing,3.2,37,Low,False
+Person_494,57,New York,43127.0,15,Sales,4.85,32,Low,True
+Person_495,63,Los Angeles,44634.0,26,HR,1.46,40,Medium,True
+Person_496,41,Chicago,44090.0,21,HR,2.96,40,Medium,False
+Person_497,67,New York,43822.0,4,Engineering,1.68,31,Low,True
+Person_498,49,New York,28331.0,26,Finance,1.2,42,High,True
+Person_499,64,Los Angeles,25080.0,24,Engineering,3.47,31,Medium,True
+Person_500,39,Phoenix,50435.0,28,Engineering,1.83,43,High,False
+Person_501,40,New York,66129.0,2,Finance,3.35,49,Low,True
+Person_502,19,New York,41934.0,11,Sales,1.45,36,High,False
+Person_503,44,Chicago,54551.0,12,Engineering,2.33,43,Low,False
+Person_504,59,Houston,61013.0,12,Engineering,4.13,31,Low,True
+Person_505,19,Los Angeles,35099.0,9,HR,2.75,41,Low,False
+Person_506,43,Los Angeles,49700.0,3,Finance,3.51,31,Low,True
+Person_507,34,Phoenix,40002.0,8,Marketing,3.59,30,High,True
+Person_508,57,Phoenix,74091.0,21,Sales,4.38,33,Low,True
+Person_509,50,Los Angeles,73436.0,23,Sales,2.3,33,Low,True
+Person_510,26,Phoenix,35114.0,22,Finance,3.75,40,High,True
+Person_511,60,Chicago,55788.0,26,HR,4.85,34,Medium,False
+Person_512,71,Los Angeles,66013.0,1,HR,3.92,40,High,False
+Person_513,65,Phoenix,62724.0,18,Finance,2.96,49,High,False
+Person_514,56,Los Angeles,51223.0,0,HR,3.52,39,High,False
+Person_515,46,Houston,69598.0,24,Sales,,41,Low,True
+Person_516,59,New York,36432.0,28,Sales,3.45,36,Low,True
+Person_517,72,Los Angeles,45453.0,6,Marketing,1.07,36,Low,False
+Person_518,43,New York,36835.0,16,Finance,1.78,33,Medium,True
+Person_519,52,Phoenix,61737.0,2,Engineering,4.24,41,Low,False
+Person_520,67,New York,,19,Engineering,2.09,44,Medium,False
+Person_521,42,Los Angeles,47431.0,19,Marketing,3.93,40,Low,False
+Person_522,41,Houston,59265.0,20,Marketing,2.49,38,High,False
+Person_523,30,Phoenix,60473.0,29,HR,3.09,30,Low,True
+Person_524,77,Los Angeles,,2,Marketing,1.27,30,Medium,True
+Person_525,75,Phoenix,65849.0,2,Marketing,1.72,42,Medium,False
+Person_526,24,Chicago,56835.0,16,Engineering,,49,Low,False
+Person_527,74,New York,33774.0,6,HR,4.56,35,High,False
+Person_528,53,Chicago,30084.0,26,Marketing,3.61,51,Low,False
+Person_529,62,Los Angeles,49762.0,25,Marketing,2.84,36,Low,False
+Person_530,37,Houston,62751.0,13,HR,3.7,43,Low,True
+Person_531,18,Phoenix,63135.0,16,Finance,3.47,44,High,False
+Person_532,25,New York,55342.0,17,HR,,52,Medium,False
+Person_533,63,Phoenix,50730.0,12,Engineering,1.24,35,High,True
+Person_534,33,Los Angeles,57676.0,19,Finance,3.53,41,Medium,True
+Person_535,31,Phoenix,37170.0,28,Sales,4.08,46,Medium,True
+Person_536,29,New York,75304.0,19,HR,4.98,38,Medium,True
+Person_537,68,Los Angeles,75109.0,20,Engineering,1.04,38,High,True
+Person_538,40,Phoenix,56432.0,26,Finance,3.92,28,Low,True
+Person_539,32,Houston,52959.0,17,HR,3.29,40,Low,True
+Person_540,45,Los Angeles,,3,Marketing,2.74,38,Low,True
+Person_541,51,Los Angeles,57931.0,0,HR,1.51,33,Low,True
+Person_542,19,Houston,39630.0,17,Sales,2.64,38,Low,False
+Person_543,49,Chicago,16645.0,0,HR,2.42,43,High,True
+Person_544,40,New York,9288.0,25,Finance,2.21,34,High,False
+Person_545,39,Chicago,38007.0,25,Finance,3.92,40,High,False
+Person_546,68,Phoenix,52345.0,12,HR,3.8,33,High,False
+Person_547,42,Houston,54979.0,19,Finance,3.36,41,High,False
+Person_548,75,Chicago,42698.0,19,Marketing,,36,High,False
+Person_549,79,Los Angeles,52127.0,22,HR,2.4,31,High,False
+Person_550,78,Phoenix,45886.0,9,Marketing,1.98,49,Low,False
+Person_551,39,Phoenix,35010.0,26,Marketing,3.62,40,Medium,False
+Person_552,75,Chicago,49193.0,10,Engineering,1.8,39,High,True
+Person_553,75,Chicago,62194.0,8,HR,2.26,37,Medium,False
+Person_554,39,Houston,35689.0,8,Finance,1.9,53,High,False
+Person_555,66,New York,35695.0,4,Marketing,1.28,43,High,False
+Person_556,69,Chicago,33961.0,25,Engineering,4.31,45,Low,False
+Person_557,59,Chicago,20952.0,0,HR,2.02,42,Medium,True
+Person_558,23,Los Angeles,42796.0,16,HR,2.89,41,Low,False
+Person_559,32,Phoenix,60711.0,21,Sales,,40,Low,True
+Person_560,71,New York,52608.0,1,Sales,3.8,38,Medium,True
+Person_561,60,Los Angeles,47461.0,23,Marketing,2.32,32,Low,False
+Person_562,77,Houston,51935.0,12,Sales,,41,High,False
+Person_563,54,Houston,42665.0,8,Marketing,2.65,36,High,True
+Person_564,50,Chicago,20781.0,28,Finance,1.78,36,High,False
+Person_565,25,Chicago,61755.0,3,Marketing,3.05,44,High,False
+Person_566,70,Houston,66066.0,4,Sales,1.52,33,High,True
+Person_567,77,Chicago,39077.0,10,Finance,2.76,40,Low,True
+Person_568,61,New York,47737.0,23,Sales,2.27,37,Low,False
+Person_569,61,Chicago,46445.0,18,Marketing,4.65,40,High,False
+Person_570,22,Phoenix,55269.0,20,Engineering,1.24,36,High,False
+Person_571,56,Chicago,75348.0,2,HR,,34,Low,True
+Person_572,21,Los Angeles,,11,Sales,1.73,36,Medium,False
+Person_573,23,New York,44346.0,25,Marketing,,43,Low,True
+Person_574,62,Los Angeles,58136.0,18,Finance,2.66,37,Low,True
+Person_575,49,Los Angeles,68815.0,18,Sales,4.63,39,Low,False
+Person_576,69,Phoenix,56125.0,12,Sales,1.97,43,Low,True
+Person_577,47,New York,49929.0,27,HR,1.37,43,Low,False
+Person_578,64,New York,56690.0,6,Marketing,2.27,38,Medium,False
+Person_579,52,New York,39450.0,14,Engineering,1.42,38,High,True
+Person_580,72,New York,41640.0,22,Finance,1.51,31,High,False
+Person_581,57,New York,34039.0,6,Marketing,3.3,43,Medium,True
+Person_582,69,Phoenix,54605.0,25,Finance,1.24,43,High,True
+Person_583,33,Chicago,48028.0,7,Sales,1.12,46,High,False
+Person_584,30,Los Angeles,37653.0,4,HR,3.86,48,High,False
+Person_585,67,New York,47537.0,20,HR,2.45,44,Medium,False
+Person_586,77,Chicago,57049.0,13,Engineering,1.5,45,Medium,False
+Person_587,59,Chicago,,3,HR,2.01,39,High,True
+Person_588,47,Los Angeles,65181.0,22,Sales,3.57,51,High,True
+Person_589,36,Phoenix,15737.0,9,Engineering,2.1,34,High,True
+Person_590,34,Houston,53589.0,19,Marketing,2.98,50,Low,False
+Person_591,73,Houston,71439.0,14,HR,1.49,42,Low,True
+Person_592,36,Chicago,29931.0,17,Engineering,3.35,46,Low,True
+Person_593,45,Los Angeles,58273.0,19,Sales,2.26,40,Medium,False
+Person_594,75,Houston,46450.0,12,Finance,3.51,51,High,False
+Person_595,72,Chicago,67254.0,28,Finance,4.23,34,Medium,False
+Person_596,43,Phoenix,56063.0,7,Sales,3.45,43,Medium,True
+Person_597,54,Houston,36739.0,8,Sales,2.18,44,Medium,False
+Person_598,43,Chicago,46987.0,15,Finance,2.02,54,High,True
+Person_599,70,Chicago,47874.0,18,Engineering,2.31,31,Low,True
+Person_600,79,New York,48152.0,15,Finance,1.66,44,High,True
+Person_601,40,Phoenix,66788.0,6,Sales,1.72,49,High,True
+Person_602,26,New York,37360.0,13,HR,4.16,35,Medium,True
+Person_603,29,Los Angeles,65045.0,27,Marketing,2.54,39,Medium,False
+Person_604,70,New York,45466.0,13,HR,2.74,44,Medium,True
+Person_605,18,New York,53352.0,24,HR,3.38,32,Low,False
+Person_606,75,Houston,51085.0,26,Sales,3.36,41,Low,True
+Person_607,75,Chicago,49672.0,3,Finance,1.27,39,Low,True
+Person_608,18,Phoenix,49795.0,25,Engineering,4.33,39,High,False
+Person_609,64,New York,71860.0,14,HR,1.71,46,Medium,True
+Person_610,51,Phoenix,62636.0,2,Finance,3.89,40,High,True
+Person_611,49,New York,44559.0,4,Engineering,4.09,38,Low,False
+Person_612,79,Los Angeles,73741.0,0,HR,3.86,45,Medium,False
+Person_613,71,New York,54120.0,2,Engineering,3.32,34,Low,True
+Person_614,65,Houston,55364.0,14,Finance,1.06,31,Medium,True
+Person_615,42,Chicago,37440.0,23,Marketing,2.44,49,Medium,True
+Person_616,57,Los Angeles,42537.0,26,Finance,3.42,45,High,False
+Person_617,62,New York,39672.0,7,Sales,2.55,32,High,True
+Person_618,70,Phoenix,51291.0,28,Engineering,4.45,42,Low,False
+Person_619,18,Los Angeles,59581.0,3,Marketing,2.24,44,High,False
+Person_620,33,Los Angeles,55508.0,1,Engineering,2.17,46,High,True
+Person_621,78,New York,73820.0,28,Engineering,2.06,33,High,False
+Person_622,56,Los Angeles,36683.0,23,HR,2.33,35,Medium,True
+Person_623,22,Phoenix,51723.0,23,Sales,3.23,29,High,True
+Person_624,39,Los Angeles,30755.0,9,Engineering,3.83,43,Low,False
+Person_625,46,Phoenix,36171.0,3,Finance,3.65,44,Medium,False
+Person_626,72,New York,68968.0,2,Finance,4.23,35,Medium,False
+Person_627,20,Chicago,43052.0,1,HR,4.54,34,High,False
+Person_628,29,Los Angeles,37949.0,24,Sales,4.26,39,Medium,False
+Person_629,43,Chicago,18050.0,16,Sales,1.08,42,Low,False
+Person_630,33,Phoenix,37799.0,22,Finance,3.94,30,Low,True
+Person_631,68,Los Angeles,46920.0,20,Marketing,1.83,40,Medium,True
+Person_632,54,Houston,29638.0,23,HR,1.53,35,High,True
+Person_633,39,Chicago,46058.0,19,HR,3.55,40,High,False
+Person_634,74,Los Angeles,,22,Finance,2.28,48,Medium,False
+Person_635,46,Chicago,39390.0,12,Finance,1.23,44,Low,False
+Person_636,31,Los Angeles,35849.0,4,Marketing,1.55,39,Medium,True
+Person_637,45,New York,33141.0,29,Marketing,1.0,41,High,True
+Person_638,22,Chicago,32873.0,20,Sales,4.61,45,High,False
+Person_639,64,Houston,58033.0,29,HR,1.1,41,Medium,False
+Person_640,66,Houston,50730.0,8,HR,1.84,44,Low,False
+Person_641,47,Phoenix,64352.0,24,Finance,2.67,37,Medium,False
+Person_642,63,Los Angeles,80297.0,28,Sales,2.43,59,Low,True
+Person_643,79,Chicago,22544.0,24,HR,4.65,35,Low,True
+Person_644,69,Phoenix,55701.0,27,Sales,1.16,47,Medium,True
+Person_645,22,Chicago,33220.0,21,Sales,,36,Medium,False
+Person_646,29,Los Angeles,61833.0,5,Finance,3.72,44,Low,True
+Person_647,33,Houston,45921.0,4,Sales,4.73,38,Low,False
+Person_648,43,New York,50409.0,24,Marketing,3.48,49,Low,False
+Person_649,43,Houston,30752.0,9,Marketing,4.22,32,Low,False
+Person_650,65,Phoenix,43603.0,7,Engineering,,36,High,True
+Person_651,38,New York,51344.0,6,Finance,2.54,36,Medium,True
+Person_652,56,Phoenix,70341.0,6,Engineering,2.5,51,Low,False
+Person_653,53,Los Angeles,38081.0,5,Marketing,4.55,48,Medium,True
+Person_654,50,New York,41739.0,20,Engineering,1.61,30,Low,False
+Person_655,79,Phoenix,64164.0,28,Finance,1.61,42,Medium,False
+Person_656,47,Los Angeles,37109.0,19,Finance,2.31,34,Medium,False
+Person_657,54,Houston,67135.0,2,Sales,1.22,45,Low,True
+Person_658,40,Los Angeles,49863.0,18,HR,1.73,39,Low,True
+Person_659,75,Chicago,54546.0,21,Sales,4.86,43,Medium,False
+Person_660,27,Los Angeles,55512.0,14,Finance,2.71,44,Medium,True
+Person_661,71,Los Angeles,40756.0,3,Marketing,3.53,29,Medium,True
+Person_662,22,Chicago,55848.0,27,Marketing,3.9,48,High,True
+Person_663,53,Phoenix,38414.0,11,Sales,2.47,31,Low,True
+Person_664,51,Phoenix,42468.0,5,Finance,1.59,48,High,False
+Person_665,69,Los Angeles,58380.0,18,Marketing,1.83,41,High,True
+Person_666,48,Chicago,54400.0,3,Finance,2.25,44,Low,False
+Person_667,27,Chicago,48875.0,14,Marketing,3.54,35,Low,False
+Person_668,75,Houston,31119.0,8,Finance,2.59,45,High,True
+Person_669,36,Phoenix,34862.0,4,Engineering,1.03,40,Low,False
+Person_670,75,New York,54150.0,12,Finance,3.09,35,Medium,False
+Person_671,49,Phoenix,60982.0,22,Finance,4.69,36,Medium,True
+Person_672,18,Phoenix,,25,Sales,4.25,49,High,False
+Person_673,73,Houston,,17,Engineering,4.3,42,High,False
+Person_674,22,New York,52012.0,29,HR,4.18,43,Low,True
+Person_675,62,Houston,,29,Sales,2.29,47,Low,True
+Person_676,21,New York,25640.0,4,HR,4.06,43,High,True
+Person_677,33,Los Angeles,52423.0,24,Marketing,1.57,45,High,True
+Person_678,41,New York,41024.0,15,HR,3.63,39,Medium,True
+Person_679,33,Houston,74615.0,26,Finance,3.57,47,Medium,False
+Person_680,72,Phoenix,53737.0,18,HR,1.1,38,Low,False
+Person_681,19,New York,56322.0,13,Sales,4.15,40,Medium,True
+Person_682,66,New York,56710.0,24,Sales,4.61,50,Low,True
+Person_683,45,Chicago,31791.0,29,HR,2.07,40,Low,False
+Person_684,49,Phoenix,79158.0,15,Sales,4.25,37,Low,True
+Person_685,44,Los Angeles,25656.0,26,Sales,1.33,36,Medium,True
+Person_686,37,Houston,61935.0,14,HR,3.4,37,High,False
+Person_687,41,Los Angeles,59279.0,21,Engineering,2.94,44,High,False
+Person_688,29,Phoenix,42844.0,3,Engineering,3.18,40,Medium,False
+Person_689,67,New York,59996.0,6,Marketing,4.7,50,High,True
+Person_690,52,New York,45236.0,15,Sales,4.49,39,Low,False
+Person_691,77,Phoenix,39868.0,23,HR,4.14,53,High,True
+Person_692,50,New York,57043.0,21,Sales,2.09,40,Medium,False
+Person_693,50,New York,34901.0,20,Finance,4.65,35,High,True
+Person_694,78,New York,46636.0,21,Sales,1.39,34,Low,True
+Person_695,68,Houston,41087.0,20,Sales,4.41,42,Low,True
+Person_696,60,Houston,44960.0,7,Engineering,2.31,43,Medium,False
+Person_697,54,Chicago,56490.0,16,HR,1.22,43,Medium,False
+Person_698,29,Los Angeles,41084.0,15,Sales,3.68,38,Medium,False
+Person_699,20,Phoenix,47115.0,26,Engineering,1.93,36,Low,True
+Person_700,18,Phoenix,42452.0,22,Marketing,1.97,43,High,False
+Person_701,50,Phoenix,71659.0,9,Engineering,2.22,36,High,False
+Person_702,57,Chicago,55139.0,9,Engineering,1.25,37,Medium,True
+Person_703,27,Houston,53301.0,26,Engineering,1.71,39,High,True
+Person_704,60,Chicago,60251.0,1,Sales,1.02,41,High,False
+Person_705,61,Phoenix,41087.0,29,Sales,2.78,54,Medium,False
+Person_706,46,Los Angeles,62888.0,8,Marketing,1.34,39,Medium,False
+Person_707,30,New York,55192.0,16,Finance,3.73,35,Low,True
+Person_708,29,Houston,26586.0,10,Finance,1.94,43,Low,False
+Person_709,48,Houston,28579.0,9,Finance,4.77,42,Low,True
+Person_710,63,Chicago,41415.0,21,Marketing,4.49,30,Low,True
+Person_711,19,Houston,,24,Finance,2.16,35,High,False
+Person_712,78,Phoenix,46425.0,16,Finance,4.13,39,High,False
+Person_713,68,Phoenix,34793.0,3,Engineering,4.21,39,Low,True
+Person_714,67,Chicago,48534.0,15,Sales,4.95,39,Low,True
+Person_715,52,Phoenix,71175.0,19,Sales,3.39,40,Medium,False
+Person_716,40,Los Angeles,49259.0,14,Engineering,1.33,28,High,False
+Person_717,34,Chicago,45455.0,24,Engineering,3.59,41,High,False
+Person_718,43,Los Angeles,55823.0,26,Engineering,3.5,46,Low,True
+Person_719,25,New York,39553.0,20,Sales,3.55,46,High,True
+Person_720,46,Los Angeles,62651.0,4,Finance,2.23,38,Medium,False
+Person_721,43,New York,57428.0,5,Engineering,4.44,36,Medium,True
+Person_722,27,New York,50582.0,16,Marketing,4.84,48,High,True
+Person_723,43,Los Angeles,52314.0,0,Engineering,1.87,47,Low,False
+Person_724,79,Chicago,80626.0,24,HR,1.35,42,High,True
+Person_725,51,Phoenix,64134.0,18,Engineering,1.78,48,Medium,False
+Person_726,68,Phoenix,82992.0,3,Sales,4.28,35,Low,False
+Person_727,58,New York,57980.0,16,Engineering,3.71,45,High,True
+Person_728,24,New York,27924.0,8,HR,3.54,40,Low,True
+Person_729,21,Chicago,46067.0,23,Marketing,2.61,38,Low,False
+Person_730,75,Houston,24496.0,1,Finance,3.31,43,Medium,True
+Person_731,70,Los Angeles,57924.0,7,Engineering,2.23,46,Low,False
+Person_732,67,New York,,14,HR,2.91,38,High,True
+Person_733,62,Phoenix,36711.0,6,HR,4.17,36,Low,True
+Person_734,28,Chicago,40165.0,26,Marketing,4.92,44,Low,True
+Person_735,46,Los Angeles,52231.0,5,Sales,4.73,42,High,False
+Person_736,73,Chicago,32028.0,0,Engineering,4.74,36,Medium,True
+Person_737,53,Los Angeles,30902.0,14,HR,2.61,38,Medium,False
+Person_738,42,Los Angeles,68579.0,22,Marketing,2.88,46,High,False
+Person_739,38,New York,51720.0,25,Finance,3.82,35,High,False
+Person_740,78,Chicago,41628.0,6,HR,4.69,37,Medium,True
+Person_741,74,Chicago,24618.0,28,Marketing,1.57,39,Low,False
+Person_742,53,Phoenix,62785.0,29,Sales,2.22,32,High,False
+Person_743,27,Phoenix,39732.0,24,Sales,1.56,32,Low,True
+Person_744,54,New York,77910.0,16,HR,3.45,35,High,False
+Person_745,26,New York,62889.0,1,HR,2.23,42,Medium,False
+Person_746,41,Houston,37877.0,26,Engineering,2.3,49,Low,True
+Person_747,52,Phoenix,39267.0,8,Marketing,1.28,46,Low,False
+Person_748,66,Los Angeles,75827.0,28,HR,2.4,41,High,True
+Person_749,52,Chicago,48736.0,8,Engineering,4.45,39,Low,False
+Person_750,65,New York,42300.0,12,Engineering,1.93,32,High,False
+Person_751,53,Chicago,50415.0,5,HR,3.78,44,Medium,True
+Person_752,35,Chicago,42231.0,5,Sales,3.52,49,Low,False
+Person_753,66,Houston,53615.0,19,Marketing,4.45,32,High,False
+Person_754,56,Phoenix,48862.0,19,Marketing,1.53,46,Low,False
+Person_755,49,New York,,20,Sales,4.91,48,High,True
+Person_756,41,Chicago,,2,HR,3.33,49,High,True
+Person_757,40,New York,36727.0,16,Marketing,4.98,44,High,True
+Person_758,79,Los Angeles,44765.0,16,HR,4.65,40,Medium,True
+Person_759,49,Houston,44673.0,11,HR,1.89,33,Low,True
+Person_760,54,Los Angeles,48836.0,15,Engineering,1.22,50,Medium,False
+Person_761,29,New York,59518.0,14,Sales,2.02,28,High,True
+Person_762,66,New York,58698.0,12,HR,3.11,42,High,True
+Person_763,72,Phoenix,67994.0,22,Finance,1.69,41,Medium,True
+Person_764,30,Chicago,37827.0,0,Sales,1.67,42,Medium,False
+Person_765,40,Chicago,55830.0,16,Marketing,2.85,36,Low,False
+Person_766,42,Los Angeles,60909.0,2,Engineering,1.13,46,High,True
+Person_767,52,Houston,39886.0,25,Marketing,1.49,42,Medium,False
+Person_768,58,Chicago,46885.0,14,Marketing,2.66,33,High,False
+Person_769,47,Phoenix,23750.0,3,Sales,1.25,36,High,False
+Person_770,34,Los Angeles,63602.0,3,Marketing,2.59,32,Low,False
+Person_771,66,Los Angeles,46767.0,17,HR,2.9,41,Low,True
+Person_772,79,Phoenix,62098.0,16,Marketing,2.81,36,Low,True
+Person_773,37,Houston,53090.0,18,Engineering,,48,Medium,False
+Person_774,65,Phoenix,47222.0,10,Engineering,3.12,38,High,False
+Person_775,42,Houston,26107.0,19,Finance,2.87,31,Medium,False
+Person_776,39,Phoenix,28775.0,2,Engineering,2.64,44,Medium,False
+Person_777,30,Phoenix,11102.0,7,Marketing,4.27,33,Low,True
+Person_778,76,New York,41560.0,13,Engineering,4.58,30,High,False
+Person_779,36,Los Angeles,84173.0,25,Sales,4.41,42,High,True
+Person_780,66,Phoenix,30680.0,0,Engineering,3.69,41,Low,False
+Person_781,53,Phoenix,10528.0,13,HR,1.55,47,High,True
+Person_782,29,Chicago,64440.0,1,Sales,2.11,33,Low,False
+Person_783,78,Los Angeles,85455.0,28,Finance,1.18,46,Medium,True
+Person_784,58,Chicago,54468.0,22,HR,,27,Medium,True
+Person_785,36,Los Angeles,54330.0,3,Marketing,3.64,52,Low,True
+Person_786,29,Chicago,45351.0,23,Marketing,3.99,46,Medium,False
+Person_787,26,Phoenix,23086.0,26,Marketing,2.25,52,Medium,True
+Person_788,24,Phoenix,28239.0,28,HR,4.38,45,Low,False
+Person_789,45,New York,45248.0,18,HR,2.04,27,Medium,True
+Person_790,31,Chicago,42373.0,5,HR,1.01,36,High,True
+Person_791,48,Houston,48272.0,24,Sales,2.51,38,Medium,False
+Person_792,69,New York,62439.0,0,Sales,3.28,52,Low,True
+Person_793,36,Chicago,41272.0,16,Marketing,2.91,38,High,False
+Person_794,75,Chicago,62745.0,7,Engineering,4.45,43,High,False
+Person_795,64,New York,41370.0,18,Marketing,1.42,42,Medium,False
+Person_796,33,Phoenix,65573.0,20,Finance,3.22,44,High,False
+Person_797,70,Chicago,51295.0,0,Sales,3.05,40,Low,True
+Person_798,22,Phoenix,43462.0,4,HR,2.13,47,High,True
+Person_799,52,New York,51039.0,26,Sales,4.29,40,Medium,False
+Person_800,29,Phoenix,45596.0,15,HR,4.01,48,Medium,True
+Person_801,42,Los Angeles,51697.0,5,Finance,3.93,38,High,True
+Person_802,69,Houston,61371.0,7,Finance,4.5,42,Low,False
+Person_803,76,Chicago,48691.0,12,Sales,3.89,40,Low,True
+Person_804,38,Houston,44456.0,15,HR,1.93,37,Medium,False
+Person_805,53,Phoenix,33147.0,29,Finance,3.82,48,Medium,True
+Person_806,70,Chicago,58687.0,2,Marketing,2.23,35,Low,True
+Person_807,40,Phoenix,55224.0,18,Marketing,1.97,44,High,False
+Person_808,33,Los Angeles,32270.0,11,HR,1.29,36,High,True
+Person_809,74,New York,62532.0,15,Sales,3.98,35,High,True
+Person_810,56,Chicago,32027.0,26,Finance,3.84,45,High,False
+Person_811,62,Los Angeles,65438.0,10,Sales,1.94,37,Low,True
+Person_812,70,Los Angeles,,9,Marketing,4.0,40,Medium,False
+Person_813,59,Chicago,56294.0,24,Finance,4.67,40,Medium,True
+Person_814,75,Phoenix,44345.0,19,Sales,1.43,21,High,False
+Person_815,56,Los Angeles,58636.0,3,Engineering,1.93,29,Low,False
+Person_816,31,Houston,66145.0,11,HR,4.0,48,Low,False
+Person_817,48,Los Angeles,58885.0,22,HR,2.1,52,High,False
+Person_818,75,Phoenix,39946.0,1,Engineering,3.5,47,High,False
+Person_819,22,Phoenix,54011.0,23,Marketing,1.32,43,High,True
+Person_820,52,Houston,66980.0,21,Finance,2.81,40,Medium,True
+Person_821,40,Los Angeles,82986.0,18,HR,3.96,45,High,False
+Person_822,46,Phoenix,46921.0,24,Engineering,3.75,31,Medium,True
+Person_823,60,Chicago,62868.0,4,Engineering,4.26,46,Low,False
+Person_824,28,New York,67017.0,7,Marketing,4.51,40,Low,True
+Person_825,35,New York,37813.0,6,Marketing,4.09,48,Medium,True
+Person_826,64,New York,76731.0,13,Sales,3.69,45,Medium,False
+Person_827,29,Los Angeles,34022.0,23,HR,1.13,37,Medium,False
+Person_828,26,Houston,62134.0,22,Sales,3.14,46,Medium,True
+Person_829,27,Phoenix,54579.0,2,Engineering,1.15,50,High,True
+Person_830,75,Chicago,50833.0,17,Finance,4.23,43,Low,False
+Person_831,61,Chicago,88202.0,15,Finance,2.28,45,High,True
+Person_832,34,Los Angeles,45481.0,22,Marketing,3.25,41,Medium,True
+Person_833,78,New York,45239.0,18,Finance,2.12,33,High,False
+Person_834,55,Los Angeles,69972.0,18,Finance,4.13,49,High,True
+Person_835,24,Houston,61427.0,17,Finance,4.55,43,Low,False
+Person_836,63,Houston,69231.0,19,Engineering,2.59,36,High,False
+Person_837,30,Phoenix,51753.0,15,Finance,4.45,48,Low,False
+Person_838,57,Phoenix,54754.0,7,Finance,,40,Medium,True
+Person_839,59,Houston,78514.0,27,Finance,3.14,26,High,True
+Person_840,26,Houston,37460.0,0,Sales,4.44,26,Medium,False
+Person_841,67,Houston,48456.0,16,Engineering,2.3,38,Low,False
+Person_842,44,Los Angeles,61973.0,11,Marketing,4.82,36,Medium,True
+Person_843,75,Houston,47062.0,29,Sales,,41,Medium,True
+Person_844,19,Chicago,41447.0,20,HR,1.07,28,Low,True
+Person_845,22,New York,59277.0,10,Engineering,4.62,49,Medium,False
+Person_846,46,Houston,,4,Engineering,1.27,46,Medium,False
+Person_847,54,New York,47887.0,26,HR,4.97,50,Medium,True
+Person_848,55,Los Angeles,47471.0,11,HR,4.81,39,High,True
+Person_849,36,New York,40284.0,16,HR,,43,Medium,True
+Person_850,25,Los Angeles,45560.0,5,Marketing,3.15,36,Low,False
+Person_851,65,Chicago,66254.0,0,Finance,1.74,40,High,False
+Person_852,62,Los Angeles,51215.0,4,Engineering,2.71,48,High,True
+Person_853,18,Los Angeles,37925.0,24,Finance,1.25,48,Low,True
+Person_854,39,Phoenix,53935.0,27,Finance,1.9,31,Medium,False
+Person_855,69,Houston,65767.0,13,HR,2.45,41,High,False
+Person_856,34,Houston,41571.0,4,Marketing,2.75,48,High,True
+Person_857,24,Chicago,30070.0,21,Sales,4.91,33,High,True
+Person_858,42,Chicago,82862.0,23,Marketing,4.23,37,Medium,True
+Person_859,62,Houston,29322.0,26,Finance,3.95,43,High,False
+Person_860,21,Phoenix,44614.0,0,Marketing,3.15,44,Low,True
+Person_861,53,Houston,53481.0,29,HR,4.36,37,Medium,False
+Person_862,23,Phoenix,45913.0,17,Sales,2.36,49,Low,False
+Person_863,77,Chicago,48876.0,15,HR,3.84,46,Low,True
+Person_864,48,New York,58652.0,8,Sales,4.98,37,High,True
+Person_865,36,Chicago,14124.0,18,Finance,2.26,33,High,False
+Person_866,78,Chicago,30996.0,21,Sales,3.7,38,High,True
+Person_867,61,Los Angeles,50663.0,4,Sales,4.38,44,Low,False
+Person_868,71,Los Angeles,,26,Sales,4.66,35,Medium,True
+Person_869,56,Los Angeles,51941.0,1,Marketing,3.87,38,High,True
+Person_870,44,Los Angeles,53414.0,29,Marketing,2.13,44,High,True
+Person_871,27,Phoenix,18261.0,14,Finance,2.31,37,Low,True
+Person_872,43,Houston,69104.0,6,Sales,1.08,30,Medium,False
+Person_873,36,New York,42525.0,3,Engineering,4.04,35,Low,False
+Person_874,56,Chicago,37017.0,0,Finance,1.17,33,High,False
+Person_875,79,Phoenix,53125.0,12,Sales,4.46,44,Low,True
+Person_876,20,New York,51607.0,19,Sales,1.47,34,High,False
+Person_877,62,Phoenix,67950.0,21,Marketing,1.69,36,Medium,False
+Person_878,30,Phoenix,54078.0,6,Finance,2.91,44,Low,False
+Person_879,67,Chicago,67371.0,14,Sales,3.95,29,High,True
+Person_880,45,Houston,35927.0,22,Sales,1.56,42,High,False
+Person_881,79,Los Angeles,52127.0,13,Finance,2.76,35,High,True
+Person_882,75,Houston,33278.0,22,Engineering,2.93,39,High,True
+Person_883,37,Chicago,51465.0,18,Finance,1.85,35,Low,False
+Person_884,45,Chicago,48285.0,21,Finance,1.46,40,High,True
+Person_885,25,Chicago,47640.0,28,Engineering,4.35,52,Low,False
+Person_886,78,New York,47772.0,23,Finance,3.01,44,High,False
+Person_887,58,Houston,61045.0,19,Sales,1.06,46,Low,False
+Person_888,56,Houston,25889.0,28,Finance,4.21,39,Low,False
+Person_889,18,Phoenix,36503.0,23,Engineering,4.92,36,High,False
+Person_890,20,Phoenix,49391.0,17,HR,3.42,35,High,True
+Person_891,30,Phoenix,32320.0,9,Finance,3.01,49,High,False
+Person_892,45,Chicago,50691.0,8,Marketing,4.51,41,High,True
+Person_893,79,Houston,49237.0,24,Sales,4.81,39,Medium,False
+Person_894,74,Chicago,28943.0,7,Sales,4.02,36,High,False
+Person_895,77,New York,28202.0,25,Marketing,2.78,42,High,False
+Person_896,66,Phoenix,10643.0,29,Marketing,3.37,37,High,True
+Person_897,42,Chicago,31689.0,28,Finance,3.8,35,Low,True
+Person_898,73,Chicago,50214.0,9,Marketing,1.78,40,High,True
+Person_899,50,New York,52342.0,16,HR,2.79,34,Low,True
+Person_900,55,Los Angeles,53028.0,1,Engineering,4.32,48,Low,False
+Person_901,70,Houston,38331.0,5,Marketing,3.62,38,Low,False
+Person_902,23,Los Angeles,49725.0,25,Marketing,2.64,36,Low,True
+Person_903,75,Phoenix,55958.0,4,HR,3.65,42,Medium,True
+Person_904,61,Chicago,30979.0,27,Sales,1.47,36,High,True
+Person_905,62,New York,51849.0,29,Sales,2.61,45,Low,False
+Person_906,49,New York,59847.0,8,Finance,4.17,25,High,True
+Person_907,62,Houston,42638.0,4,HR,1.88,36,Low,True
+Person_908,78,Los Angeles,65933.0,17,Engineering,1.74,43,Medium,False
+Person_909,64,Houston,42988.0,25,Engineering,4.8,58,Low,True
+Person_910,38,Chicago,37099.0,19,HR,1.84,34,High,False
+Person_911,33,Houston,58352.0,8,Engineering,2.04,40,High,False
+Person_912,71,New York,80499.0,16,Sales,4.88,44,Medium,False
+Person_913,38,New York,51280.0,26,Engineering,3.94,31,High,False
+Person_914,28,Phoenix,59523.0,16,Engineering,3.8,33,High,False
+Person_915,77,Phoenix,42369.0,11,HR,,36,Low,True
+Person_916,54,Chicago,31375.0,6,HR,1.46,31,High,True
+Person_917,53,Los Angeles,52493.0,26,Engineering,3.82,40,Low,False
+Person_918,52,Houston,54865.0,2,Marketing,3.01,41,Medium,False
+Person_919,36,Chicago,44631.0,9,HR,4.32,45,High,True
+Person_920,37,Phoenix,59465.0,1,Finance,3.03,40,Low,True
+Person_921,74,Houston,40188.0,24,Finance,3.48,41,High,False
+Person_922,35,Phoenix,36468.0,2,Sales,2.91,45,Low,True
+Person_923,64,Houston,65909.0,15,Engineering,2.91,51,Medium,True
+Person_924,58,Los Angeles,65980.0,1,Marketing,,45,Low,False
+Person_925,66,Chicago,40484.0,27,Sales,3.51,39,High,True
+Person_926,31,Houston,75782.0,23,Engineering,,42,Low,True
+Person_927,32,New York,45693.0,9,HR,2.8,40,High,True
+Person_928,48,New York,51271.0,5,Finance,3.12,36,Medium,True
+Person_929,18,Houston,48730.0,21,Marketing,3.98,35,Low,False
+Person_930,70,Houston,57856.0,25,Finance,4.3,47,High,True
+Person_931,71,Houston,54071.0,10,HR,3.79,40,High,False
+Person_932,71,New York,53869.0,22,Engineering,4.7,44,High,True
+Person_933,20,New York,34706.0,6,HR,4.28,45,Low,False
+Person_934,33,Houston,24671.0,26,HR,3.25,48,Low,False
+Person_935,40,Phoenix,67132.0,28,Finance,3.69,39,Low,True
+Person_936,74,Phoenix,41818.0,14,Marketing,4.71,42,Medium,False
+Person_937,28,Los Angeles,49264.0,5,HR,3.48,45,High,False
+Person_938,29,Chicago,54901.0,19,Finance,4.3,50,High,False
+Person_939,27,Phoenix,74435.0,26,Marketing,3.76,37,Medium,False
+Person_940,49,New York,52420.0,8,Engineering,3.21,37,Medium,False
+Person_941,33,Phoenix,44078.0,21,Engineering,1.97,39,Low,True
+Person_942,25,Los Angeles,42146.0,19,Sales,2.7,37,Low,False
+Person_943,55,Los Angeles,49439.0,11,Finance,4.87,32,Low,False
+Person_944,29,Chicago,36359.0,18,Marketing,3.63,40,Low,True
+Person_945,41,Phoenix,50433.0,19,HR,3.26,39,Low,True
+Person_946,45,New York,49219.0,2,Engineering,4.73,32,Low,False
+Person_947,70,New York,74622.0,14,Marketing,3.35,50,Medium,True
+Person_948,25,Houston,48745.0,1,Finance,3.1,45,Medium,True
+Person_949,75,New York,,29,Sales,4.04,35,Medium,True
+Person_950,45,Chicago,90102.0,20,Engineering,3.85,39,High,True
+Person_951,53,Chicago,64352.0,1,Marketing,,45,High,True
+Person_952,43,New York,81235.0,21,Marketing,2.89,48,Low,True
+Person_953,25,New York,32640.0,2,Marketing,2.89,50,Medium,False
+Person_954,75,Houston,46672.0,5,Finance,2.51,40,High,False
+Person_955,77,New York,60116.0,14,Finance,3.07,45,High,True
+Person_956,67,Houston,58045.0,26,Finance,2.65,48,Medium,True
+Person_957,45,Houston,54604.0,9,HR,1.8,30,High,False
+Person_958,45,New York,17005.0,8,Marketing,2.65,30,High,True
+Person_959,54,Los Angeles,24313.0,0,Engineering,1.29,39,Medium,False
+Person_960,58,Los Angeles,72762.0,15,Finance,3.3,58,High,True
+Person_961,53,Houston,75429.0,5,Finance,4.41,48,Medium,False
+Person_962,44,New York,48400.0,8,Marketing,3.9,41,High,False
+Person_963,71,Los Angeles,70856.0,26,Finance,2.44,41,Medium,True
+Person_964,34,New York,34651.0,3,HR,1.35,45,High,True
+Person_965,26,New York,38083.0,26,HR,1.81,49,High,True
+Person_966,50,New York,33465.0,27,Finance,3.18,32,Medium,True
+Person_967,70,Phoenix,37251.0,1,Marketing,1.83,33,High,False
+Person_968,37,New York,60840.0,28,Marketing,,44,Medium,True
+Person_969,30,Phoenix,,3,Marketing,1.93,27,Medium,False
+Person_970,45,Houston,83596.0,0,Sales,4.4,41,High,True
+Person_971,65,Los Angeles,56901.0,18,Finance,2.59,37,Low,False
+Person_972,46,Los Angeles,66267.0,25,Marketing,1.98,42,High,True
+Person_973,30,Los Angeles,57349.0,24,HR,4.25,46,Low,True
+Person_974,63,Los Angeles,68214.0,9,Engineering,2.37,47,Low,False
+Person_975,52,Los Angeles,36980.0,20,Engineering,1.45,37,High,True
+Person_976,78,Los Angeles,,14,Marketing,3.28,29,Low,True
+Person_977,23,Los Angeles,52114.0,26,Engineering,3.33,39,Medium,True
+Person_978,35,Houston,68138.0,21,Engineering,3.86,49,Medium,True
+Person_979,68,New York,28406.0,18,Sales,1.96,31,Low,True
+Person_980,22,Chicago,52708.0,15,HR,2.78,21,Medium,False
+Person_981,64,Phoenix,52178.0,20,HR,2.13,43,High,True
+Person_982,42,Chicago,40711.0,26,Sales,1.32,43,Medium,False
+Person_983,19,Chicago,54696.0,23,Sales,4.51,31,Low,True
+Person_984,27,New York,73094.0,21,Engineering,3.92,40,High,True
+Person_985,73,New York,39557.0,3,Finance,2.21,54,Medium,False
+Person_986,47,New York,64427.0,1,Engineering,,37,High,False
+Person_987,67,Los Angeles,33088.0,29,Sales,1.81,41,Low,False
+Person_988,76,Houston,81641.0,24,HR,4.56,43,Medium,False
+Person_989,62,Los Angeles,61769.0,12,Engineering,1.46,49,High,False
+Person_990,22,Houston,75876.0,27,Finance,1.02,46,High,True
+Person_991,72,Houston,60080.0,0,Engineering,3.01,36,Medium,False
+Person_992,73,Chicago,55859.0,16,Marketing,3.33,43,High,False
+Person_993,50,Chicago,61893.0,12,Engineering,3.32,35,High,True
+Person_994,71,Houston,47953.0,3,Sales,1.22,40,Low,True
+Person_995,18,Houston,25732.0,6,HR,2.26,32,Low,False
+Person_996,35,Los Angeles,56710.0,16,HR,3.0,45,Low,False
+Person_997,49,Los Angeles,38667.0,8,Sales,1.87,31,Low,False
+Person_998,64,Chicago,,3,Marketing,,48,Low,True
+Person_999,66,New York,,18,Sales,1.35,42,Low,False
