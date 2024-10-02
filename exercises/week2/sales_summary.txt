@@ -1,0 +1,20 @@
+Försäljningsanalys Sammanfattning
+        
+Total försäljning: $28990.00
+Genomsnittlig daglig försäljning: $966.33
+Dag med högst försäljning: 2023-03-08 00:00:00
+Produkt med högst total försäljning: Laptop
+
+Topp 5 produkter efter försäljning:
+Product
+Laptop        14000
+Smartphone     8960
+Tablet         6030
+
+Genomsnittlig försäljning per månad:
+Month
+2023-01    950.0
+2023-02    954.0
+2023-03    995.0
+Freq: M
+        

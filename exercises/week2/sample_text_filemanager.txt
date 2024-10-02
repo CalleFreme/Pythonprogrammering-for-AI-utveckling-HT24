@@ -1,0 +1,4 @@
+Detta är en testfil för filhanteraren.
+Den innehåller flera rader av text.
+Du kan använda denna fil för att testa dina läs-, skriv- och uppdateringsfunktioner.
+Ändra gärna innehållet för att testa olika scenarion.
