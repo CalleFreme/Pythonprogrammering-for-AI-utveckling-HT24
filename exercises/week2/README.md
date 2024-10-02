@@ -151,7 +151,7 @@ Skapa en hierarki av djurklasser:
 3. Överskugga `make_sound()` metoden i varje subklass för att returnera djurets specifika ljud.
 4. Skapa en funktion `animal_chorus(animals)` som tar en lista av djur och låter alla göra sitt ljud.
 
-## Uppgift 10: Arvs och polyformism: Klass och subklasser för geometriska former (med kod-skelett/scaffolding)
+## Uppgift 10: Arv och polyformism: Klass och subklasser för geometriska former (med kod-skelett/scaffolding)
 
 Här är en början på en klass för geometriska former. Komplettera klassen med metoder och funktionalitet enligt kommentarerna:
 
