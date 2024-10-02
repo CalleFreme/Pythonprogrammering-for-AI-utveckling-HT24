@@ -7,7 +7,9 @@ import seaborn as sns
 print("Pandas Examples:")
 
 # Creating a DataFrame
-df = pd.DataFrame({'Name': ['Alice', 'Bob', 'Charlie'], 'Age': [25, 30, 35], 'City': ['New York', 'Los Angeles', 'Chicago']})
+df = pd.DataFrame({'Name': ['Alice', 'Bob', 'Charlie'],
+                   'Age': [25, 30, 35],
+                   'City': ['New York', 'Los Angeles', 'Chicago']})
 print("Basic DataFrame:")
 print(df)
 
@@ -103,7 +105,7 @@ plt.show()
 
 # Histogram
 plt.figure(figsize=(10, 6))
-plt.hist(csv_df['Age'], bins=20, edgecolor='black')
+plt.hist(csv_df['Age'], bins=40, edgecolor='black')
 plt.title('Age Distribution')
 plt.xlabel('Age')
 plt.ylabel('Frequency')
