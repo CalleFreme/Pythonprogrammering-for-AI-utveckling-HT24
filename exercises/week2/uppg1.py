@@ -20,7 +20,9 @@ class BankAccount:
 
 # Testa BankAccount class
 account = BankAccount("Alice")
-account.deposit(1000)
+new_deposit = account.deposit(1000)
+if (new_deposit == True):
+    print(f"Deposit successful. New balance: ${account.balance:.2f}")
 account.withdraw(500)
 account.display_balance()
 
