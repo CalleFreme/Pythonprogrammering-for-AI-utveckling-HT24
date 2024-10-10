@@ -7,6 +7,253 @@ Dessa övningar är till för att hjälpa dig lära dig och öva på att använd
 Läs README-filen under lectures/week4 innan du börjar med dessa uppgifter.
 Denna [Geeksforgeeks-länk](https://www.geeksforgeeks.org/python-ai/) är en av många bra resurser.
 
+## Teorifrågor
+
+### 1. Vad är AI, och hur relaterar det till maskininlärning?
+
+**Svar:**
+Artificiell Intelligens är det bredare konceptet av maskiner som kan utföra uppgifter på ett sätt som vi skulle betrakta som "smart" eller "intelligent". Maskininlärning är en delmängd av AI som fokuserar på maskiners förmåga att ta emot data och lära sig själva utan att vara explicit programmerade.
+
+### 2. Kan du förklara skillnaden mellan övervakad (supervised) och oövervakad (unsupervised) inlärning?
+
+**Svar:**
+I övervakad inlärning tränas algoritmen på en märkt dataset, där varje input är parad med korrekt output. Målet är att lära sig en funktion som mappar input till output. I oövervakad inlärning ges algoritmen omärkt data och måste hitta mönster eller struktur på egen hand.
+
+### 3. Vad menas med klassifieringsinlärning (classification) och regression (regression)?
+
+**Svar:**
+Klassificering och regression är två huvudtyper av övervakad inlärning:
+
+- Klassificering handlar om att förutsäga en diskret kategori eller klass. Till exempel att avgöra om ett e-postmeddelande är spam eller inte, eller att identifiera vilken siffra en handskriven bild föreställer.
+- Regression handlar om att förutsäga ett kontinuerligt numeriskt värde. Till exempel att förutsäga huspriser baserat på egenskaper som storlek och plats, eller att förutsäga en persons inkomst baserat på utbildning och erfarenhet.
+
+### 4. Vad menas med features (features) och labels (labels)?
+
+**Svar:**
+I maskininlärning refererar dessa termer till delar av träningsdata:
+
+- Features (egenskaper) är de indata-variabler som används för att göra förutsägelser. De representerar de egenskaper eller attribut som beskriver varje exempel i datasetet. Till exempel kan features för ett huspris-dataset inkludera husets storlek, antal rum, och plats.
+- Labels (etiketter) är de önskade utdata eller målvariablerna som modellen försöker förutsäga. I ett övervakat inlärningsproblem är labels de korrekta svar som modellen tränas att förutsäga. Till exempel kan labels i ett huspris-dataset vara de faktiska priserna för husen.
+
+### 5. Vad är några vanliga tillämpningar av AI i vardagen?
+
+**Svar:**
+Några vanliga tillämpningar är:
+
+Röstassistenter (Siri, Alexa)
+Rekommendationssystem (Netflix, Amazon)
+Bildigenkänning (Face ID på smartphones)
+Skräppostfilter i e-post
+Autonoma fordon
+
+### 6. Vad är djupinlärning (deep learning) och hur skiljer det sig från traditionell maskininlärning?
+
+***Svar:**
+Djupinlärning är en underkategori av maskininlärning som använder neurala nätverk med många lager (därav "djup"). Det kan automatiskt lära sig komplexa mönster i data utan manuell feature extraction (d.v.s. ). Traditionell maskininlärning kräver ofta mer manuell feature engineering och fungerar bättre med mindre datamängder.
+
+### 7. Hur fungerar ett neuralt nätverk på en grundläggande nivå?
+
+**Svar:**
+Ett neuralt nätverk består av sammankopplade noder (neuroner) organiserade i lager. Varje nod tar emot input, applicerar en aktiverningsfunktion och skickar output till nästa lager. Nätverket lär sig genom att justera vikterna mellan noderna baserat på fel i dess prediktioner.
+
+### 8. Vad är förstärkningsinlärning (reinforcement learning) och hur skiljer det sig från övervakad och oövervakad inlärning?
+
+**Svar:**
+Förstärkningsinlärning är en typ av maskininlärning där en agent lär sig att interagera med en miljö för att maximera en belöning. Till skillnad från övervakad inlärning finns det ingen fördefinierad "korrekt" output, och till skillnad från oövervakad inlärning får agenten feedback i form av belöningar eller straff, och skapar en strategi-policy med tiden.
+
+### 9. Vad är några populära Python-bibliotek som används inom AI och ML?
+
+**Svar:**
+
+- TensorFlow och Keras för djupinlärning
+- scikit-learn för traditionell maskininlärning
+- NumPy för numerisk beräkning
+- Pandas för datamanipulering och analys
+- Matplotlib och Seaborn för datavisualisering
+
+### 10. Vad är "overfitting" och hur kan det undvikas?
+
+**Svar:**
+Overfitting inträffar när en modell lär sig träningsdatan för väl och presterar dåligt på ny, osedd data. Det kan undvikas genom tekniker som regularisering, early stopping, och användning av mer träningsdata.
+
+### 11. Hur kan vi implementera bildigenkänning med Python?
+
+**Svar:**
+Vi kan använda deep learning-bibliotek som TensorFlow eller PyTorch för att träna en Convolutional Neural Network (CNN) på ett stort dataset av märkta (labeled) bilder. För enklare uppgifter kan vi också använda förtränade modeller som tillhandahålls av dessa bibliotek.
+
+### 12. Hur kan vi utföra naturlig språkbehandling (NLP) med Python?
+
+**Svar:**
+Vi kan använda bibliotek som NLTK eller spaCy för grundläggande NLP-uppgifter. För mer avancerade uppgifter kan vi använda deep learning-modeller som BERT eller GPT, implementerade i bibliotek som Transformers från Hugging Face.
+
+### 13. Hur kan vi implementera senitment-analys med Python?
+
+**Svar:**
+Vi kan implementera sentiment-analys i Python genom att använda en kombination av naturlig språkbehandling (NLP) och maskininlärning. Här är en grundläggande approach:
+
+- Använd NLTK eller spaCy för förbehandling av text (tokenisering, borttagning av stoppord, etc.).
+- Konvertera text till numeriska vektorer med hjälp av tekniker som Bag of Words eller TF-IDF.
+- Träna en maskininlärningsmodell (t.ex. Naive Bayes eller Support Vector Machine) på en märkt dataset av texter med kända sentiments.
+- Använd den tränade modellen för att förutsäga sentiment för nya, osedda texter.
+
+För mer avancerade resultat kan man använda djupa inlärningsmodeller som LSTM eller BERT, implementerade med TensorFlow eller PyTorch.
+
+### 14. Vad innebär det att normalisera datan?
+
+**Svar:**
+Att normalisera data innebär att skala om numeriska värden till ett gemensamt intervall, vanligtvis mellan 0 och 1 eller -1 och 1. Detta görs av flera anledningar:
+
+1. Det hjälper till att jämna ut skillnader i storleksordning mellan olika features, vilket kan förbättra modellens prestanda.
+2. Det kan göra träningsprocessen snabbare och mer stabil för många maskininlärningsalgoritmer.
+3. Det hjälper till att undvika att features med större numeriska värden dominerar över features med mindre värden.
+
+Vanliga normaliseringsmetoder är Min-Max-skalning och Z-score normalisering (standardisering).
+
+### 15. Vad innebär en sekventiell modell?
+
+**Svar:**
+En sekventiell modell, särskilt i kontexten av deep learning-bibliotek som Keras, är en linjär stack av lager där data flödar från ett lager till nästa i en rak sekvens. Denna typ av modell är enkel att förstå och implementera:
+
+1. Varje lager har exakt en input-tensor och en output-tensor.
+2. Lager läggs till ett i taget i en bestämd ordning.
+3. Det är den enklaste typen av neural nätverksarkitektur, där information flödar framåt genom nätverket utan några förgreningar eller hopp.
+
+Sekventiella modeller är välpassande för många grundläggande deep learning-uppgifter, men för mer komplexa arkitekturer (som modeller med flera inputs eller outputs) kan man behöva använda den mer flexibla funktionella API:n.
+
+### 16. Vad innebär en K-means-modell?
+
+**Svar:**
+K-means är en populär klusteringsalgoritm inom oövervakad inlärning. Den försöker gruppera datapunkter i K antal fördefinierade kluster baserat på deras likhet. Här är huvuddragen:
+
+1. "K" representerar antalet kluster som algoritmen ska hitta.
+2. Varje kluster representeras av sin centroid (mittpunkt).
+3. Algoritmen itererar genom att tilldela varje datapunkt till det närmaste klustret och sedan uppdatera klustercentroiderna.
+4. Processen upprepas tills centroiderna stabiliseras eller ett maximalt antal iterationer nås.
+
+K-means används ofta för att upptäcka naturliga grupperingar i data, segmentera kunder, eller för dimensionsreduktion. En utmaning med K-means är att bestämma det optimala värdet för K, vilket ofta kräver experimentering och domänkunskap.
+
+### 17. Vad innebär det att kompilera en modell?
+
+**Svar:**
+Att kompilera en modell, särskilt i kontexten av deep learning-ramverk som TensorFlow och Keras, innebär att förbereda modellen för träning genom att specificera vissa kritiska komponenter:
+
+1. Optimerare (Optimizer): Algoritmen som kommer att uppdatera modellens vikter baserat på förlusten. Exempel inkluderar Adam, SGD, och RMSprop.
+2. Förlustfunktion (Loss function): Måttet som används för att kvantifiera hur väl modellen presterar. Exempel inkluderar mean squared error för regression och binary crossentropy för binär klassificering.
+3. Metriker (Metrics): Ytterligare mått som används för att övervaka träningsprocessen och modellens prestanda, som accuracy för klassificeringsuppgifter.
+
+Kompileringsteget konfigurerar modellen för träning genom att sätta upp de matematiska operationer som krävs för att beräkna förlust, uppdatera vikter, och mäta prestanda. Det är ett nödvändigt steg innan man kan börja träna modellen på data.
+
+## Kodfrågor
+
+### 1. Vad gör följande kod, och vilken typ av maskinlärning använder den?
+
+```python
+from sklearn.cluster import KMeans
+import numpy as np
+
+# Generera exempel-data
+X = np.array([[1, 2], [1.5, 1.8], [5, 8], [8, 8], [1, 0.6], [9, 11]])
+
+# Skapa och träna modellen
+kmeans = KMeans(n_clusters=2)
+kmeans.fit(X)
+
+# Skriv ut kluster-centroids och labels
+print("Centroids:", kmeans.cluster_centers_)
+print("Labels:", kmeans.labels_)
+```
+
+***Svar:**
+Programmet implementerar K-means clustering, vilket är en oövervakad inlärningsalgoritm. Den genererar först ett exempel-dataset med punkter i 2D-space. Sedan skapas en KMeans-modell med två kluster och tränas på datan. Slutligen skrivs centroiderna (mittpunkterna) för varje kluster ut, samt labels som indikerar vilket kluster varje datapunkt tillhör.
+
+### 2. Vad gör följande kod?
+
+```python
+import tensorflow as tf
+import pandas as pd
+import numpy as np
+
+# Ladda data från en CSV-fil
+data = pd.read_csv('temperature_data.csv')
+
+# Förbehandla data
+X = data['Temperature'].values
+y = data['Energy_Consumption'].values
+
+# Normalisera data
+X = (X - np.mean(X)) / np.std(X)
+y = (y - np.mean(y)) / np.std(y)
+
+# Skapa en sekventiell modell
+model = tf.keras.Sequential([
+    tf.keras.layers.Dense(64, activation='relu', input_shape=(1,)),
+    tf.keras.layers.Dense(32, activation='relu'),
+    tf.keras.layers.Dense(1)
+])
+
+# Kompilera modellen
+model.compile(optimizer='adam', loss='mse')
+
+# Träna modellen
+model.fit(X, y, epochs=100, batch_size=32, verbose=0)
+
+# Gör en förutsägelse
+new_temp = np.array([25])  # Ny temperatur
+new_temp_normalized = (new_temp - np.mean(X)) / np.std(X)
+prediction = model.predict(new_temp_normalized)
+
+print(f"Förutsagd energiförbrukning för temperatur 25: {prediction[0][0]}")
+```
+
+***Svar:**
+Programmet implementerar en enkel neural nätverksmodell med TensorFlow och Keras för att förutsäga energiförbrukning baserat på temperatur. Den läser in data från en CSV-fil, normaliserar datan, skapar en sekventiell modell med tre Dense-lager, tränar modellen på datan, och gör sedan en förutsägelse för en ny temperatur.
+
+### 3. Vad gör följande kod (3)?
+
+```python
+import tensorflow as tf
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+import pandas as pd
+
+# Ladda data från en CSV-fil
+data = pd.read_csv('movie_reviews.csv')
+
+# Förbehandla text
+tokenizer = Tokenizer(num_words=5000, oov_token="<OOV>")
+tokenizer.fit_on_texts(data['review'])
+
+sequences = tokenizer.texts_to_sequences(data['review'])
+padded_sequences = pad_sequences(sequences, maxlen=100, truncating='post')
+
+# Skapa modell
+model = tf.keras.Sequential([
+    tf.keras.layers.Embedding(5000, 16, input_length=100),
+    tf.keras.layers.GlobalAveragePooling1D(),
+    tf.keras.layers.Dense(24, activation='relu'),
+    tf.keras.layers.Dense(1, activation='sigmoid')
+])
+
+# Kompilera och träna modellen
+model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+model.fit(padded_sequences, data['sentiment'], epochs=10, validation_split=0.2)
+
+# Testa modellen på en ny recension
+new_review = ["This movie was great! I really enjoyed it."]
+new_sequence = tokenizer.texts_to_sequences(new_review)
+new_padded_sequence = pad_sequences(new_sequence, maxlen=100, truncating='post')
+
+prediction = model.predict(new_padded_sequence)
+print(f"Sentiment prediction: {prediction[0][0]}")
+```
+
+***Svar:**
+Programmet implementerar en sentimentanalysmodell med TensorFlow och Keras för att klassificera filmrecensioner som positiva eller negativa. Den läser in data från en CSV-fil, tokeniserar och paddar texten, skapar en sekventiell modell med ett Embedding-lager följt av GlobalAveragePooling och Dense-lager, tränar modellen på datan, och gör sedan en förutsägelse för en ny filmrecension.
+
+---
+
+## Övningsuppgifter
+
 Innan du börjar med övningarna, se till att du har följande bibliotek installerade:
 
 ```bash
@@ -15,13 +262,15 @@ pip install tensorflow scikit-learn pandas numpy matplotlib
 
 ## Övning 1: Linjär regression med Scikit-learn
 
-**Data**: Använd Boston Housing-datasetet från Scikit-learn.
+**Data**: ~~Använd Boston Housing-datasetet från Scikit-learn.~~
+Boston-datasetet togs bort från Scikit-learn fr.o.m. version 1.2 på grund av etiska och juridiska problem. Tack till Aleh som upptäckte detta!
+Använd istället California Housing dataset från Scikit-learn.
 
 **Uppgift**: Skapa en enkel linjär regressionsmodell för att förutsäga huspriser.
 
 **Steg**:
 
-1. Ladda Boston Housing-datasetet med `sklearn.datasets.load_boston()`.
+1. Ladda California Housing-datasetet med `sklearn.datasets.fetch_california_housing()`.
 2. Dela upp data i tränings- och testset.
 3. Skapa en `LinearRegression`-modell och anpassa den till träningsdata.
 4. Gör förutsägelser på testsettet och beräkna genomsnittligt kvadratfel (MSE).
