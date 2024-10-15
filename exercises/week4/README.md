@@ -7,7 +7,7 @@ Dessa övningar är till för att hjälpa dig lära dig och öva på att använd
 Läs README-filen under lectures/week4 innan du börjar med dessa uppgifter.
 Denna [Geeksforgeeks-länk](https://www.geeksforgeeks.org/python-ai/) är en av många bra resurser.
 
-## Teorifrågor
+## TEORIFRÅGOR
 
 ### 1. Vad är AI, och hur relaterar det till maskininlärning?
 
@@ -143,7 +143,7 @@ Att kompilera en modell, särskilt i kontexten av deep learning-ramverk som Tens
 
 Kompileringsteget konfigurerar modellen för träning genom att sätta upp de matematiska operationer som krävs för att beräkna förlust, uppdatera vikter, och mäta prestanda. Det är ett nödvändigt steg innan man kan börja träna modellen på data.
 
-## Kodfrågor
+## KODFRÅGOR
 
 ### 1. Vad gör följande kod, och vilken typ av maskinlärning använder den?
 
@@ -185,14 +185,18 @@ X = (X - np.mean(X)) / np.std(X)
 y = (y - np.mean(y)) / np.std(y)
 
 # Skapa en sekventiell modell
-model = tf.keras.Sequential([
-    tf.keras.layers.Dense(64, activation='relu', input_shape=(1,)),
-    tf.keras.layers.Dense(32, activation='relu'),
-    tf.keras.layers.Dense(1)
+model = tf.keras.Sequential([¨
+    # Skapar ett första lager i modellen. Dense innebär "fully connected layer", d.v.s varje neuron/nod är kopplad till alla andra noder i föreående och nästa lager.
+    # 64 indikerar antalet noder i lagret.
+    # input_shape(1,) innebär att vi förväntas oss endimensionell data, t.ex. ett enda tal per data-exempel i datasetet.
+    # activation='relu' innebär att vi använder oss av aktiveringsfunktionen ReLu (Rectified Linear Unit). Vanlig.
+    tf.keras.layers.Dense(64, activation='relu', input_shape=(1,)), 
+    tf.keras.layers.Dense(32, activation='relu'),   # Andra lagret har 32 noder. Får samma input_shape som föregående lager.
+    tf.keras.layers.Dense(1)    # Sista lagret består av en enda slutgiltig nod, från vilken vi får den slutgiltiga outputen som modellen ska producera.
 ])
 
 # Kompilera modellen
-model.compile(optimizer='adam', loss='mse')
+model.compile(optimizer='adam', loss='mse') # Modellen använder sig av 'Adam'-opmtimeringsfunktion, och Mean-Squared Error som loss-funktion.
 
 # Träna modellen
 model.fit(X, y, epochs=100, batch_size=32, verbose=0)
@@ -208,7 +212,7 @@ print(f"Förutsagd energiförbrukning för temperatur 25: {prediction[0][0]}")
 ***Svar:**
 Programmet implementerar en enkel neural nätverksmodell med TensorFlow och Keras för att förutsäga energiförbrukning baserat på temperatur. Den läser in data från en CSV-fil, normaliserar datan, skapar en sekventiell modell med tre Dense-lager, tränar modellen på datan, och gör sedan en förutsägelse för en ny temperatur.
 
-### 3. Vad gör följande kod (3)?
+### 3. Vad gör följande kod?
 
 ```python
 import tensorflow as tf
@@ -252,7 +256,7 @@ Programmet implementerar en sentimentanalysmodell med TensorFlow och Keras för 
 
 ---
 
-## Övningsuppgifter
+## ÖVNINGSUPPGIFTER
 
 Innan du börjar med övningarna, se till att du har följande bibliotek installerade:
 
