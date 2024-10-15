@@ -17,6 +17,7 @@
 6. Använd funktionen `pd.melt()` för att omforma DataFrame:n, och gör 'Salary' och 'Performance_Score' kolumnerna till variabler.
 
 7. Pivota DataFrame:n för att visa genomsnittlig lön för varje kombination av Stad och Avdelning.
+Tips: Googla "Python DataFrame pivot_table"
 
 ## NumPy-övningar
 
@@ -25,6 +26,7 @@
 9. Utför elementvis multiplikation av två 4x4 matriser.
 
 10. Använd NumPy för att lösa ett system av linjära ekvationer (Ax = b).
+Tips: Googla "numpy linalg.solve()"
 
 11. Generera en array med 1000 prover från en binomialfördelning med n=10 och p=0,5.
 
