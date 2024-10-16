@@ -1,12 +1,11 @@
 # Övning 2: Binär klassificering med Keras
 
 import numpy as np
+import tensorflow as tf
 from sklearn.datasets import load_breast_cancer
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from tensorflow import keras
-from keras.models import Sequential
-from keras.layers import Dense
+from tf import keras
 
 # Ladda datasetet
 data = load_breast_cancer()
@@ -20,17 +19,17 @@ X_scaled = scaler.fit_transform(X)
 X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.2, random_state=42)
 
 # Skapa modellen
-model = Sequential([
-    Dense(16, activation='relu', input_shape=(30,)),
-    Dense(8, activation='relu'),
-    Dense(1, activation='sigmoid')
+model = tf.keras.Sequential([
+    tf.keras.Dense(16, activation='relu', input_shape=(30,)),
+    tf.keras.Dense(8, activation='relu'),
+    tf.keras.Dense(1, activation='sigmoid')
 ])
 
 # Kompilera modellen
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
 # Träna modellen
-history = model.fit(X_train, y_train, epochs=100, batch_size=32, validation_split=0.2, verbose=0)
+history = model.fit(X_train, y_train, epochs=100, batch_size=32, validation_split=0.2, verbose=1)
 
 # Utvärdera modellen
 loss, accuracy = model.evaluate(X_test, y_test)
