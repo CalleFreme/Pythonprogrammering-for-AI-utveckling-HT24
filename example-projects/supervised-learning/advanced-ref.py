@@ -6,6 +6,14 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.metrics.pairwise import cosine_similarity
 
+# Key Enhancements in this version:
+
+# Expanded Dataset: We've increased the number of books to 20, providing a richer set of options.
+# Improved Preprocessing: We're now using a more sophisticated preprocessing pipeline with StandardScaler for numerical features and OneHotEncoder for categorical features.
+# User Preferences: Instead of asking for a favorite book, we now ask users to rate their interest in various subgenres and themes.
+# Cosine Similarity: We've switched from k-NN to cosine similarity, which often works better for high-dimensional sparse data like ours.
+# User Vector: We create a vector representing the user's preferences and compare it directly to our book features.
+
 class BookData:
     def __init__(self):
         self.books_df = None
