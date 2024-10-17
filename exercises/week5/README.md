@@ -5,6 +5,8 @@ Försök visualisera resultaten.
 Försök argumentera för styrkor och svagheter med varje metod.
 Använd Google för att hitta information om biblioteken och deras dataset och tillgängliga modeller/algoritmer.
 
+Det kan hända att t.ex. keras-APIet har förändrats, eller att scikit-learn-dataset inte längre går att använda.
+
 ## Övning 1: Linjär Regression med Scikit-learn
 
 (Om du inte redan gjort denna uppgift)
@@ -105,3 +107,47 @@ Implementera en Voting Classifier för att kombinera flera modeller.
 3. Kombinera dessa i en Voting Classifier.
 4. Jämför prestandan för den kombinerade modellen med de individuella modellerna.
 5. Experimentera med både hard och soft voting.
+
+## Övning: Projektspecifikation
+
+Du har tre kunduppdrag A, B, C. Resonera kring kraven och förutsättningarna för de tre olika mjukvaror som ska skapas. Skapa en specifikation för varje kundprojekt, som beskriver vilket och definierar vilken typ av machine learning som passar sig för våra behov, minst inklusive typ av ML och data, övergripande algoritm och vilken modell som ska implementeras. Om du vill, specificera också klasser och metoder som programmet behöver.
+
+## Kunduppdrag A: Prediktion av huspriser
+
+En fastighetsmäklare vill ha ett verktyg för att uppskatta huspriser baserat på olika egenskaper hos fastigheten.
+
+Krav:
+
+- Prediktera pris baserat på egenskaper som storlek, antal rum, läge, ålder på huset, etc.
+- Möjlighet att uppdatera modellen med ny data regelbundet
+- Enkel användargränssnitt för mäklare att mata in data och få prisprediktioner
+
+## Kunduppdrag B: Kundsegementeringssystem för e-handelsföretag
+
+Ett e-handelsföretag vill gruppera sina kunder baserat på köpbeteende för att kunna skräddarsy marknadsföringsinsatser.
+
+Krav:
+
+- Gruppera kunder baserat på faktorer som köpfrekvens, genomsnittligt ordervärde, typ av produkter som köps, etc.
+- Visualisering av kundsegment
+- Möjlighet att tilldela nya kunder till existerande segment
+
+## Kunduppdrag C: Textklassificering för kundtjänstärenden
+
+Ett stort företag vill automatisera sorteringen av inkommande kundtjänstärenden via e-post till rätt avdelning.
+
+Krav:
+
+- Klassificera inkommande e-postmeddelanden till rätt kategori (t.ex. fakturafrågor, teknisk support, returer)
+- Hantera svenska texter
+- Möjlighet att träna om modellen när nya kategorier tillkommer
+
+Uppgift:
+För varje kunduppdrag, skapa en specifikation som inkluderar:
+
+1. Typ av machine learning (supervised, unsupervised, etc.)
+2. Beskrivning av nödvändig data
+3. Lämplig algoritm och modell
+4. Övergripande struktur (klasser och metoder) för implementationen
+
+Tänk på att motivera dina val och diskutera eventuella för- och nackdelar med den valda approachen.
