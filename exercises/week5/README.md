@@ -105,9 +105,3 @@ Implementera en Voting Classifier för att kombinera flera modeller.
 3. Kombinera dessa i en Voting Classifier.
 4. Jämför prestandan för den kombinerade modellen med de individuella modellerna.
 5. Experimentera med både hard och soft voting.
-
-För varje övning, uppmuntra studenterna att:
-- Experimentera med olika hyperparametrar
-- Använda cross-validation för mer robusta resultat
-- Visualisera resultaten när det är möjligt
-- Diskutera styrkor och svagheter med varje metod
