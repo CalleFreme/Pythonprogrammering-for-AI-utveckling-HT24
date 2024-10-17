@@ -14,6 +14,7 @@ class BookData:
     def __init__(self):
         self.books_df = None
         self.feature_matrix = None
+        self.encoder = None
 
     def load_data(self):
         # Ska egentligen ladda in data från databas med API, eller en fil
@@ -32,13 +33,20 @@ class BookData:
     def preprocess_data(self):
         # Till en början fokuserar vi på subgenre, themes, och ratings som våra main features
         # Vi One-Hot encodar subgenre och themes, vilket skapar kategorier baserat på dessa features
-        encoder = OneHotEncoder(sparse=False)
+        self.encoder = OneHotEncoder(sparse_output=False)
         
-        subgenre_encoded = encoder.fit_transform(self.books_df[['subgenre']])
-        subgenre_columns = encoder.get_feature_names(['subgenre'])
+        subgenre_encoded = self.encoder.fit_transform(self.books_df[['subgenre']])
+        subgenre_columns = self.encoder.get_feature_names_out(['subgenre'])
         
-        themes_encoded = encoder.fit_transform(self.books_df['themes'].str.split(', ', expand=True))
-        themes_columns = encoder.get_feature_names(['theme'])
+        # Kolumnen themes kan innehålla flera teman. Måste splitta upp dessa först innan encoding.
+        themes = self.books_df['themes'].str.split(', ', expand=True)
+        themes_encoded = self.encoder.fit_transform(themes)
+        
+        # themes har flera kolumner
+        themes_columns = self.encoder.get_feature_names_out()
+        # Om themes hade bara varit en kolumn:
+        # themes_columns = encoder.get_feature_names_out(['theme'])
+
         
         # Kombinera encoded features med rating
         # Vi representerar våra features med en matrix för att
@@ -87,8 +95,58 @@ class RecommendationModel:
         
         # Get recommended book titles (excluding the input book)
         recommended_books = self.book_data.books_df.iloc[indices[0][1:]]['title'].tolist()
+
+        explanations = self._get_explanations(indices[0][1:], book_index[0])
         
-        return recommended_books
+        return recommended_books, explanations
+
+    def _get_explanations(self, recommended_indices, input_book_index):
+        input_book = self.book_data.books_df.iloc[input_book_index]
+        input_features = self.book_data.feature_matrix[input_book_index]
+        
+        explanations = []
+        subgenre_size = len(self.book_data.encoder.categories_[0])
+
+        for idx in recommended_indices:
+            recommended_book = self.book_data.books_df.iloc[idx]
+            recommended_features = self.book_data.feature_matrix[idx]
+            
+            # Calculate feature differences
+            subgenre_diff = np.linalg.norm(
+                self.book_data.feature_matrix[input_book_index, :subgenre_size]
+                - self.book_data.feature_matrix[idx, :subgenre_size]
+            )
+            theme_diff = np.linalg.norm(
+                self.book_data.feature_matrix[input_book_index, subgenre_size:-1]
+                - self.book_data.feature_matrix[idx, subgenre_size:-1]
+            )
+            rating_diff = abs(input_book['rating'] - recommended_book['rating'])
+            
+            # Start explanation text
+            explanation_parts = []
+
+            # Check subgenre similarity
+            if subgenre_diff == 0:
+                explanation_parts.append("subgenre")
+            
+            # Check theme similarity
+            if theme_diff == 0:
+                explanation_parts.append("themes")
+            
+            # Check if rating is within a threshold of similarity
+            if rating_diff <= 0.2:
+                explanation_parts.append("rating")
+            
+            # Form the explanation based on which features are similar
+            if explanation_parts:
+                explanation = f"Recommended book '{recommended_book['title']}' shares similar " + ", ".join(explanation_parts) + "."
+            else:
+                explanation = f"Recommended book '{recommended_book['title']}' has notable differences but may still be of interest."
+            
+            explanations.append(explanation)
+        
+        return explanations
+
 
 class UserInterface:
     def __init__(self, recommendation_model, user_data):
@@ -98,11 +156,11 @@ class UserInterface:
     def run(self):
         print("Welcome to the Fantasy Book Recommender!")
         favorite_book = self.user_data.get_user_input()
-        recommendations = self.recommendation_model.get_recommendations(favorite_book)
+        recommendations, explanations = self.recommendation_model.get_recommendations(favorite_book)
         
         print("\nBased on your favorite book, we recommend:")
-        for book in recommendations:
-            print(f"- {book}")
+        for book, explanation in zip(recommendations, explanations):
+            print(f"- {book}: {explanation}")
 
 def main():
     # Initiera komponenter
