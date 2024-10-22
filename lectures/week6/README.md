@@ -1,4 +1,4 @@
-# Föreläsning vecka 5 - Reinforcement Learning
+# Föreläsning vecka 6 - Reinforcement Learning
 
 Förra veckan fokuserade vi på supervised learning, det vill säga scenarion där våra system lär sig från markerad/labeled data.
 I supervised learning var vårt mål att hitta en matematisk modell som bäst kan hitta/passa en relation mellan input och output-värden.
@@ -21,6 +21,7 @@ Policyn är AI-agentens strategi för att beräkna/avgöra vilka actions som är
 Det som karaktäriserar ett RL-system, är alltså hur du definierar agentens miljö, och hur du väljer att beräkna det uppskattade förväntade värdet av en viss action.
 
 **RL**
+
 * Ingen labeled träningsdata
 * Inlärning genom interaktin med miljö
 * (delayed) Feedback genom reward
