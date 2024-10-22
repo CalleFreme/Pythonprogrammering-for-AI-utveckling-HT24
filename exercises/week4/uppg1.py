@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import root_mean_squared_log_error
+from sklearn.metrics import root_mean_squared_error, root_mean_squared_log_error
 
 # Ladda datasetet
 housing = fetch_california_housing()
@@ -20,9 +20,10 @@ model.fit(X_train, y_train) # Tränar på träningsdata
 
 # Gör förutsägelser och beräkna MSE
 y_pred = model.predict(X_test) # Använd testdata i prediktion
-mse = root_mean_squared_log_error(y_test, y_pred) # Jämför hur nära vår prediction kom de verkliga priserna i testdatat.
-
-print(f"Genomsnittligt kvadratfel (MSE): {mse}")
+#mse = root_mean_squared_log_error(y_test, y_pred) # Jämför hur nära vår prediction kom de verkliga priserna i testdatat.
+#rmse = root_mean_squared_log_error(y_test, y_pred)
+rmse_alt = root_mean_squared_error(y_test, y_pred)
+print(f"Genomsnittligt kvadratfel (RMSE): {rmse_alt}")
 
 # Kommentarer:
 # 1. Vi använder California Housing-datasetet som innehåller information om bostäder i Kalifornien.
