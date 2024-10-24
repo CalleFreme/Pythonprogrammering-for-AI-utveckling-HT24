@@ -1,6 +1,26 @@
 # En agent som ska lära sig plocka upp och lämna av passagerare på rätt platser
 # Använder en förenklad version av Gymnasiums Taxi-miljö
 
+# Detta är vår 5x5 värld:
+# R ░ ░ ░ G    # R = Röd plats (0,0)
+# ░ ░ ░ ░ ░    # G = Grön plats (0,4)
+# ░ ░ ░ ░ ░    # B = Blå plats (4,0)
+# ░ ░ ░ ░ ░    # Y = Gul plats (4,4)
+# B ░ ░ ░ Y    # ░ = Tom ruta
+
+# # Tillstånd (state) består av:
+# - Taxins position (rad 0-4, kolumn 0-4)
+# - Passagerarens position (0=R, 1=G, 2=B, 3=Y, 4=i taxin)
+# - Destinationen (0=R, 1=G, 2=B, 3=Y)
+
+# # Möjliga handlingar (actions):
+# 0: Upp
+# 1: Höger
+# 2: Ner
+# 3: Vänster
+# 4: Plocka upp
+# 5: Lämna av
+
 import gymnasium as gym
 import numpy as np
 from collections import defaultdict
@@ -274,9 +294,4 @@ if __name__ == "__main__":
     q_table = train_taxi_driver(episodes=1000, render=True)
     print("\nTräning klar! Kör några demonstrationsepisoder...")
     run_trained_taxi(q_table)
-    
-# För att köra träningen:
-if __name__ == "__main__":
-    print("Tränar taxichaufför...")
-    q_table = train_taxi_driver()
-    print("Träning klar!")
+
