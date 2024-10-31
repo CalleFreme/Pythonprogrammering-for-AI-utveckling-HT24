@@ -31,7 +31,10 @@ class SimpleGridWorld(gym.Env):
         
         # Reward structure
         done = self.state == self.goal
-        reward = 1.0 if done else -0.1
+        if self.state in self.obstacles:
+            reward = -1.0
+        else:
+            reward = 1.0 if done else -0.1
         
         return self.state, reward, done, False, {}
         
@@ -45,11 +48,17 @@ class QLearning:
         self.q_table = np.zeros((states, actions))
         self.lr = learning_rate
         self.gamma = discount
+        self.epsilon = 1.0
+        self.epsilon_decay = 0.995
+        self.epsilon_min = 0.01
         
     def get_action(self, state, epsilon=0.1):
         if np.random.random() < epsilon:
             return np.random.randint(self.q_table.shape[1])
         return np.argmax(self.q_table[state])
+    
+    def decay_epsilon(self):
+        self.epsilon = max(self.epsilon_min, self.epsilon * self.epsilon_decay)
         
     def update(self, state, action, reward, next_state):
         old_value = self.q_table[state, action] # Current q-value
@@ -73,3 +82,5 @@ for episode in range(episodes):
         next_state, reward, done, _, _ = env.step(action)
         agent.update(state, action, reward, next_state)
         state = next_state
+
+# State -> Action -> Reward -> New State
