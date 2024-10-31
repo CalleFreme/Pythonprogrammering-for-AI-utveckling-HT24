@@ -1,6 +1,6 @@
 # Föreläsning vecka 7 - Computer Vision
 
-**Bra resurser:**
+**Bra resurser**:
 [Computer Vision](https://www.kaggle.com/learn/computer-vision)
 [KerasCV](https://keras.io/keras_cv/)
 
@@ -26,7 +26,7 @@ Det finns många olika typer av computer vision. Olika modeller och tekniker anv
 
 - Sjukvård (diagnos av medicinska bilder)
 - Autonoma fordon
-- Rekommendationssystem inom retail
+- Rekommendationssystem inom retail, sociala medier
 - m.fl.
 
 ## Hur representeras och bearbetas visuell data?
@@ -48,15 +48,15 @@ Digitala bilder representeras som matriser av pixel-värden.
     - Värden utanför intervallet 0-255 behöver förmodligent as bort.
     - Vi behöver oftast normalisera färg-värdena från 0-255 till intervallet 0-1, lättare för modellen att jobba med
 
-
 ## Hur hittar vi features, mönster och egenskaper i bilderna?
 
 ### Traditionella Feature Extraction-tekniker
 
-**Edge Detection**: Använder *Sobel* eller *Canny operators* för att markera kanter i bilden
-**SIFT (Scale-Invariant Feature Transform)**: Upptäcker *key points* och deras *descriptors* i en bild,
-    användbar för object recognition.
-**HOG (Histogram of Oriented Gradients)**: Kodar 
+- **Edge Detection**: Använder *Sobel* eller *Canny operators* för att markera kanter i bilden
+
+- **SIFT (Scale-Invariant Feature Transform)**: Upptäcker *key points* och deras *descriptors* i en bild, användbar för object recognition.
+
+- **HOG (Histogram of Oriented Gradients)**: Kodar 
 
 De traditionella metoderna är ofta begränsade, då de i regel är "hand-crafted" för ett särskilt syfte, och
 fungerar dåligt i generella situationer, särskilt när bilderna är komplexa.
@@ -122,7 +122,16 @@ Se ***digitsAI.py*** för exempel.
 
 Till skillnad från image classification, där vi identifierar vad en hel bild föreställer för typ av *"main object"*, vill vi i ***object detection*** hitta och identifiera flera objekt i en bild.
 
-Convolutional Neural Networks låter oss utföra effektiv *image classification*, ***Regional*** **Convolutinal Networks** låter oss utföra effektiv *object detection*.
+Convolutional Neural Networks låter oss utföra effektiv *image classification*, ***Regional*** **Convolutinal Networks (R-CNNs)** låter oss utföra effektiv *object detection*.
+
+**R-CNN** delar up bilden i flera regioner eller subregioner. Detta är områden i bilden är sannolika att innehålla objekt.
+Regionerna i sig skapas med hjälp av underliggande metoder så som Selective Search eller EdgeBoxes.
+
+**Styrkor hos R-CNN**:
+
+- Hög träffsäkerhet för object detection
+- Robust i förhållande till objekt-variationer
+- Flexibilitet, kan användas för instance segementation och object tracking.
 
 Vanliga modeller för object detection är
 
@@ -213,4 +222,8 @@ Visualiseringsverktig så som **TensorBoard** kan användas för att monitorera 
 
 ## Exempelprogram 1 - DigitsAI
 
+Diskussion om utökning
+
 ## Exempelprogram 2 - CocoAI
+
+Diskussion om utökning
