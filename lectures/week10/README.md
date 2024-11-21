@@ -15,13 +15,13 @@ Deep learning är en revolutionerande teknik som bland annat möjliggör:
 
 ## Bra källor och läsning:
 
-[Wikipedia: Deep learning](https://en.wikipedia.org/wiki/Deep_learning)
-[DeepLearning.AI](https://www.deeplearning.ai/courses/) (*Bör gå att ladda ner vissa kursers material/slides*)
-[Lex Fridman, MIT: Deep Learning Basics](https://www.youtube.com/watch?v=O5xeyoRL95U)
+- [Wikipedia: Deep learning](https://en.wikipedia.org/wiki/Deep_learning)
+- [DeepLearning.AI](https://www.deeplearning.ai/courses/) (*Bör gå att ladda ner vissa kursers material/slides*)
+- [Lex Fridman, MIT: Deep Learning Basics](https://www.youtube.com/watch?v=O5xeyoRL95U)
 
-Googla efter artikel "Attention is all you need".
-Läs TensorFlow/PyTorch dokumentation.
-HuggingFace transformers library.
+- Googla efter artikel "Attention is all you need".
+- Läs TensorFlow/PyTorch dokumentation.
+- HuggingFace transformers library.
 
 ## Vad är Deep Learning?
 
@@ -69,12 +69,14 @@ Worst-case: X1 = 1, X2 = 0, X3 = 0,
 
 Bias skulle alltså t.ex. kunna sättas till 4, 4.5, eller 5, beroende på hur pass "övertygade" vi vill bli innan vi går utomhus.
 
-Vi låter** X1 = 1, X2 = 0, X3 = 1**, d.v.s det är klart väder, det är mörkt ute, och det är varmt.
-Vi låter** w1 = 2, w2 = 5, w3 = 1,** d.v.s vi bryr oss mest om att det är ljus ute, näst mest att det är klart väder.
+Vi låter **X1 = 1, X2 = 0, X3 = 1**, d.v.s det är klart väder, det är mörkt ute, och det är varmt.
+Vi låter **w1 = 2, w2 = 5, w3 = 1,** d.v.s vi bryr oss mest om att det är ljus ute, näst mest att det är klart väder.
 
 Vi låter Y stå för "Vill jag gå utomhus?". Vi beräknar svaret till denna fråga med hjälp av vår activation function.
-Y = w1*X1 + w2*X2 + w3*X3 - bias = 2*1 + 5*0 + 1*1 - 4 = 3 - 4 = -1
-Y är mindre än 0, d.v.s vi ska inte ga utomhus.
+
+$Y = w1*X1 + w2*X2 + w3*X3 - bias = 2*1 + 5*0 + 1*1 - 4 = 3 - 4 = -1$
+
+Y är mindre än 0, d.v.s vi ska inte gå utomhus.
 
 ### När blir det "Deep"?
 
@@ -120,13 +122,13 @@ Ett Hidden layer, med backprogagation
 
 ## Standard DL techniques
 
-Initialization methods
-Regularization: Reducerar överanpassning, med t.ex. L2, dropout.
-Batch Normalization: Stabiliserar inlärning genom att normalisera inputs
-Gradient Checking: Identifierar fel i backpropagation
+- Initialization methods
+- Regularization: Reducerar överanpassning, med t.ex. L2, dropout.
+- Batch Normalization: Stabiliserar inlärning genom att normalisera inputs
+- Gradient Checking: Identifierar fel i backpropagation
 
 Optimization algorithms: mini-batch gradient descent, Momentum, RMSProp, Adam; check convergence;
-Learning rate decay scehduling to speed up models
+Learning rate decay scehduling för att snabba upp modeller
 
 ### End-to-End learning
 
@@ -138,14 +140,14 @@ Lär allt i ett enda steg.
 
 ### Multi-Task learning
 
-Lär flera relterade uppgifter samtidigt.
+Lär flera relaterade uppgifter samtidigt.
 
 ## Convolutional Neural Networks
 
-- Används för bilddatat och datorseende (object detection, bildsegementering, neural styler transfer)
+- Används för bilddatat och datorseende (object detection, bildsegementering, neural style transfer)
 - Key Layers:
 
-1. Convolutional Layer: Upptärcka mönster (t.ex. kanter)
+1. Convolutional Layer: Upptäcka mönster (t.ex. kanter)
 2. Pooling Layer: Minskar dimensionerna, datastorleken
 
 ### Forskning och tillämpning
@@ -154,11 +156,11 @@ Vi kan lära oss mycket från forskningsartiklar, för att sedan använda olika 
 
 ### Deep Learning in Computer Vision
 
-Vi kan använda CNNs för visuell detektering och igenkänning
+Vi kan använda CNNs för visuell detektering och igenkänning;
 *Object detection* och *image segmentation* är typiskt.
 
 CNNs kan användas inom många olika domäner, forskningsfält och sammanhang.
-Neural style transfer, för ansiktsigenkänning, och för att generera ny konst
+Neural style transfer, för ansiktsigenkänning, och för att generera "ny" "konst".
 
 ## Sequence Models
 
@@ -170,7 +172,7 @@ Neural style transfer, för ansiktsigenkänning, och för att generera ny konst
 - Minnesförmåga genom rekursion
 - GRUs, LSTMS: Löser problemet med långvarigt beroende
 - Bidirectional RNNs: Läser sekvensen i båda riktningar
-Bra för temporal data.
+- Bra för temporal data.
 
 ## NLP, Attention och Transformers
 
@@ -185,7 +187,8 @@ Kritiskt för modern speech recognition, maskinöversättning, audio data.
 
 Arkitekturer som GPT och BERT.
 Transformer-arkitekturer är bra för Natural Language Processing och attention models.
-NLP Tasks: NER; Question Answering; Text Summarization
+
+NLP Tasks:NER; Question Answering; Text Summarization
 
 ## Generative AI
 
@@ -193,11 +196,13 @@ NLP Tasks: NER; Question Answering; Text Summarization
 
 Foundation Models tränas på massiva mängder data, och möjliggör:
 
-LLM och textgenerering - modellerar språk. Givet en viss sekvens av ord, predicta vad nästa sekvens (svaret) ska vara.
-Audio - Generera röstinspelningar baserat på gamla sekvenser av rösten., syntetiskt tal
-Bild - Dall-E, Stable Diffusion
-Video - Deep fakes
+- LLM och textgenerering - modellerar språk. Givet en viss sekvens av ord, predicta vad nästa sekvens (svaret) ska vara.
+- Audio - Generera röstinspelningar baserat på gamla sekvenser av rösten., syntetiskt tal
+- Bild - Dall-E, Stable Diffusion
+- Video - Deep fakes
 
 Nytt eller uppspytt? Kan modellerna verkligen vara kreativa? Diskussion!
 
 ## TensorFlow vs PyTorch
+
+Välj beroende på ditt projekts behov!
